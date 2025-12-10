@@ -4,7 +4,7 @@ category: staff
 title: Li Bai
 image: bai.jpg
 role: Lab Director
-permalink: /portfolio/team/bai-li
+permalink: /team/bai-li
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
