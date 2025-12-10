@@ -11,8 +11,9 @@ permalink: /portfolio/team/
 <!-- Staff -->
 
 <h2><a id="staff"></a>Staff</h2>
-{% assign members = site.pages | where_exp: "p", "p.path contains '/team/' and p.category == 'staff'" | sort: 'title' %}
+{% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
+    {% if member.path contains '/team/' and member.category == 'staff' %}
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
@@ -31,13 +32,15 @@ permalink: /portfolio/team/
         </div>
     </div>
 </div>
+    {% endif %}
 {% endfor %}
 
 <!-- Students -->
 
 <h2><a id="student"></a>Students</h2>
-{% assign members = site.pages | where_exp: "p", "p.path contains '/team/' and p.category == 'student'" | sort: 'title' %}
+{% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
+    {% if member.path contains '/team/' and member.category == 'student' %}
 <div class="card team-member-card">
     <div class="row mt-3">
         <div class="col-md-2">
@@ -57,4 +60,5 @@ permalink: /portfolio/team/
     </div>
 </div>
 
+    {% endif %}
 {% endfor %}
