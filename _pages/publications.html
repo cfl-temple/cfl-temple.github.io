@@ -127,14 +127,23 @@ permalink: /publications/
 
     <!-- By Year -->
     <div role="tabpanel" class="tab-pane" id="byyear">
-        {% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005" | split: "," %}
-        {% for year in years %}
-        {% assign year_pubs = site.data.publications | where_exp: "pub", "pub.issued.date-parts[0][0] == year" %}
-        {% if year_pubs.size > 0 %}
+        {% assign recent_years = "2024,2023,2022" | split: "," %}
+        {% assign older_years = "2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005" | split: "," %}
+        
+        <!-- Recent Years (shown by default) -->
+        {% for year in recent_years %}
+        {% assign year_index = 0 %}
+        {% assign has_pubs = false %}
+        {% for publi in site.data.publications %}
+            {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
+            {% if pub_year == year %}
+                {% assign has_pubs = true %}
+            {% endif %}
+        {% endfor %}
+        {% if has_pubs %}
         <h3>{{ year }}</h3>
         <div class="panel-group" id="accordion-year-{{year}}">
             <div class="panel panel-default">
-            {% assign year_index = 0 %}
             {% for publi in site.data.publications %}
                 {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
                 {% if pub_year == year %}
@@ -143,33 +152,23 @@ permalink: /publications/
                     <a data-toggle="collapse" data-parent="#accordion-year-{{year}}"
                        href="#collapse-year-{{year}}-{{year_index}}"
                        style="color: inherit;">
-                    <!-- authors -->
                     {% assign authors = "" | split:"/" %}
                     {% for author in publi.author %}
                         {% assign authors = authors | push: author.family %}
                     {% endfor %}
                     {{ authors | array_to_sentence_string }},
-
-                    <!-- title with link -->
                     "{{ publi.title }}",
-
-                    <!-- container -->
                     <b>{{ publi.container-title }}</b>
-
-                    <!-- type badge -->
                     {% if publi.type == "paper-conference" %}
                     <span class="label label-info">Conference</span>
                     {% elsif publi.type == "article-journal" %}
                     <span class="label label-success">Journal</span>
                     {% endif %}
-
-                    <!-- DOI -->
                     {% if publi.DOI %}
                         <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
                     {% endif %}
                     </a>
                 </div>
-
                 <div id="collapse-year-{{year}}-{{year_index}}" class="panel-collapse collapse">
                     <div class="panel-body">
                         <p>{{ publi.abstract }}</p>
@@ -185,5 +184,73 @@ permalink: /publications/
         </div>
         {% endif %}
         {% endfor %}
+
+        <!-- Older Publications (collapsed) -->
+        <div class="panel panel-default" style="margin-top: 20px;">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#older-publications" style="color: inherit;">
+                        <span class="glyphicon glyphicon-chevron-down"></span> Older Publications (2021 and earlier)
+                    </a>
+                </h4>
+            </div>
+            <div id="older-publications" class="panel-collapse collapse">
+                <div class="panel-body">
+                    {% for year in older_years %}
+                    {% assign year_index = 0 %}
+                    {% assign has_pubs = false %}
+                    {% for publi in site.data.publications %}
+                        {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
+                        {% if pub_year == year %}
+                            {% assign has_pubs = true %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if has_pubs %}
+                    <h3>{{ year }}</h3>
+                    <div class="panel-group" id="accordion-year-old-{{year}}">
+                        <div class="panel panel-default">
+                        {% for publi in site.data.publications %}
+                            {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
+                            {% if pub_year == year %}
+                            {% assign year_index = year_index | plus: 1 %}
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-year-old-{{year}}"
+                                   href="#collapse-year-old-{{year}}-{{year_index}}"
+                                   style="color: inherit;">
+                                {% assign authors = "" | split:"/" %}
+                                {% for author in publi.author %}
+                                    {% assign authors = authors | push: author.family %}
+                                {% endfor %}
+                                {{ authors | array_to_sentence_string }},
+                                "{{ publi.title }}",
+                                <b>{{ publi.container-title }}</b>
+                                {% if publi.type == "paper-conference" %}
+                                <span class="label label-info">Conference</span>
+                                {% elsif publi.type == "article-journal" %}
+                                <span class="label label-success">Journal</span>
+                                {% endif %}
+                                {% if publi.DOI %}
+                                    <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                                {% endif %}
+                                </a>
+                            </div>
+                            <div id="collapse-year-old-{{year}}-{{year_index}}" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>{{ publi.abstract }}</p>
+                                    {% if publi.DOI %}
+                                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                                       role="button" target="blank">Link</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
 </div>
