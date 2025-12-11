@@ -4,7 +4,7 @@ category: student
 title: Sarker Mohammad
 image: anway.jpg
 role: Master Student
-permalink: /team/bose-anway2
+permalink: /team/sarker
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
