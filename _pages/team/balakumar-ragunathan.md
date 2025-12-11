@@ -5,6 +5,7 @@ title: Balakumar Ragunathan
 image: bala.jpg
 role: Alumni
 permalink: /team/balakumar-ragunathan
+grad_year: 2007
 social:
     twitter:
     linkedin:

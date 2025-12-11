@@ -5,6 +5,7 @@ title: Shweta Moonat
 image: shweta.jpg
 role: Alumni
 permalink: /team/shweta-moonat
+grad_year: 2006
 social:
     twitter:
     linkedin:

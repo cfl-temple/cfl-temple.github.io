@@ -5,6 +5,7 @@ title: Hanlu Yang
 image: hanlu.png
 role: Graduate Student
 permalink: /team/hanlu-yang
+grad_year: 2019
 social:
     twitter:
     linkedin:

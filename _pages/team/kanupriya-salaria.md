@@ -5,6 +5,7 @@ title: Kanupriya Salaria
 image: kanu.jpg
 role: Alumni
 permalink: /team/kanupriya-salaria
+grad_year: 2006
 social:
     twitter:
     linkedin:

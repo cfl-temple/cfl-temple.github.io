@@ -5,6 +5,7 @@ title: Shan Cao
 image: nobody.png
 role: Visiting Scholar
 permalink: /team/shan-cao
+grad_year: 2015
 social:
     twitter:
     linkedin:

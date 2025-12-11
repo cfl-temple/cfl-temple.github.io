@@ -5,6 +5,7 @@ title: Yiran Li
 image: yiran.png
 role: Graduate Student
 permalink: /team/yiran-li
+grad_year: 2018
 social:
     twitter:
     linkedin:

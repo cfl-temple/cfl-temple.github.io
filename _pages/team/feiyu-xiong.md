@@ -5,6 +5,7 @@ title: Feiyu Xiong
 image: feiyu.jpg
 role: Alumni
 permalink: /team/feiyu-xiong
+grad_year: 2009
 social:
     twitter:
     linkedin:

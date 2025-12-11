@@ -5,6 +5,7 @@ title: Krunal Cholera
 image: nobody.png
 role: Alumni
 permalink: /team/krunal-cholera
+grad_year: 2005
 social:
     twitter:
     linkedin:

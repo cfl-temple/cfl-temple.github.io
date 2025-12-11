@@ -5,6 +5,7 @@ title: Michael Korostelev
 image: korostelev.png
 role: Graduate Student
 permalink: /team/michael-korostelev
+grad_year: 2017
 social:
     twitter:
     linkedin:

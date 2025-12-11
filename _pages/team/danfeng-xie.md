@@ -5,6 +5,7 @@ title: Danfeng Xie
 image: danfeng.jpg
 role: Graduate Student
 permalink: /team/danfeng-xie
+grad_year: 2019
 social:
     twitter:
     linkedin:

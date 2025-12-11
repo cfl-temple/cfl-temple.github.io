@@ -5,6 +5,7 @@ title: Alex Wroblewski
 image: alex.png
 role: Undergraduate Student
 permalink: /team/alex-wroblewski
+grad_year: 2018
 social:
     twitter:
     linkedin:

@@ -5,6 +5,7 @@ title: Ning Gong
 image: ning.png
 role: Alumni
 permalink: /team/ning-gong
+grad_year: 2016
 social:
     twitter:
     linkedin:

@@ -5,6 +5,7 @@ title: Ying Feng
 image: feng.png
 role: Graduate Student
 permalink: /team/ying-feng
+grad_year: 2017
 social:
     twitter:
     linkedin:
