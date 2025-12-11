@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Anway Boise
 image: anway.jpg
-role: MS Student
+role: Master Student
 permalink: /team/bose-anway
 social:
     twitter: https://twitter.com/
