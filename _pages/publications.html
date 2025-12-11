@@ -20,14 +20,18 @@ permalink: /publications/
     <div role="tabpanel" class="tab-pane active" id="conferences">
         <div class="panel-group" id="accordion-conf">
             <div class="panel panel-default">
+            {% assign conf_pubs = site.data.publications | where: "type", "paper-conference" %}
+            {% assign conf_total = conf_pubs | size %}
             {% assign conf_index = 0 %}
             {% for publi in site.data.publications %}
                 {% if publi.type == "paper-conference" %}
                 {% assign conf_index = conf_index | plus: 1 %}
+                {% assign display_num = conf_total | minus: conf_index | plus: 1 %}
                 <div class="panel-heading">
                     <a data-toggle="collapse" data-parent="#accordion-conf"
                        href="#collapse-conf-{{conf_index}}"
                        style="color: inherit;">
+                    <strong>[{{display_num}}]</strong>
                     <!-- authors -->
                     {% assign authors = "" | split:"/" %}
                     {% for author in publi.author %}
@@ -70,14 +74,18 @@ permalink: /publications/
     <div role="tabpanel" class="tab-pane" id="journals">
         <div class="panel-group" id="accordion-journal">
             <div class="panel panel-default">
+            {% assign journal_pubs = site.data.publications | where: "type", "article-journal" %}
+            {% assign journal_total = journal_pubs | size %}
             {% assign journal_index = 0 %}
             {% for publi in site.data.publications %}
                 {% if publi.type == "article-journal" %}
                 {% assign journal_index = journal_index | plus: 1 %}
+                {% assign display_num = journal_total | minus: journal_index | plus: 1 %}
                 <div class="panel-heading">
                     <a data-toggle="collapse" data-parent="#accordion-journal"
                        href="#collapse-journal-{{journal_index}}"
                        style="color: inherit;">
+                    <strong>[{{display_num}}]</strong>
                     <!-- authors -->
                     {% assign authors = "" | split:"/" %}
                     {% for author in publi.author %}
