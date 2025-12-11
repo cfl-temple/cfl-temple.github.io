@@ -18,5 +18,29 @@ We aim to address a fundamental challenge: solving diverse data fusion problems 
 
 By tackling these foundational problems, we strive to enable robust, secure, and efficient fusion across distributed intelligent systems.
 
-The Computer Fusion Laboratory (CFL) is part of Temple University’s Electrical and Computer Engineering Department under the leadership of  Dr. Li Bai. The CFL pursues research in various areas of engineering including autonomous vehicle driving, distributed sensing and computing, multi-agent systems, wireless sensor networks, augmented reality and more. The think tank style laboratory explores what makes our world tick.
+The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical and Computer Engineering Department under the leadership of Dr. Li Bai. The CFL pursues research in various areas of engineering including autonomous vehicle driving, distributed sensing and computing, multi-agent systems, wireless sensor networks, augmented reality and more. The think tank style laboratory explores what makes our world tick.
 
+---
+
+## Research Projects
+
+{% assign projects = site.pages | where_exp: "page", "page.path contains 'research/'" | sort: 'order' %}
+{% for project in projects %}
+{% if project.title %}
+
+### {{ project.title }}
+
+<div class="research">
+{% if project.image %}
+<img src="{{ site.baseurl }}/images/research/{{ project.image }}" style="max-width: 400px; float: right; margin-left: 20px;">
+{% endif %}
+</div>
+
+{{ project.content }}
+
+<div style="clear: both;"></div>
+
+---
+
+{% endif %}
+{% endfor %}
