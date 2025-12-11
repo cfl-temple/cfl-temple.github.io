@@ -1232,41 +1232,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/HVLHJ42N",
-		"type": "article-journal",
-		"container-title": "Photosynthetica",
-		"issue": "2",
-		"note": "publisher: Springer Netherlands",
-		"page": "238–244",
-		"title": "Enhancement of low-temperature tolerance in transgenic tomato plants overexpressing Lefad7 through regulation of trienoic fatty acids",
-		"volume": "51",
-		"author": [
-			{
-				"family": "Liu",
-				"given": "XY"
-			},
-			{
-				"family": "Teng",
-				"given": "YB"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Meng",
-				"given": "QW"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/NK6WXR8V",
 		"type": "paper-conference",
 		"container-title": "2013 6th International Symposium on Resilient Control Systems (ISRCS)",
@@ -3732,36 +3697,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/15837688/items/EY3AMAJF",
-		"type": "article-journal",
-		"container-title": "DECHEMA MONOGRAPHIEN",
-		"note": "publisher: WILEY-VCH",
-		"page": "473–478",
-		"title": "RAFT Polymerization in Miniemulsion: a Mechancial Investigation",
-		"volume": "138",
-		"author": [
-			{
-				"family": "Luo",
-				"given": "Y"
-			},
-			{
-				"family": "Yang",
-				"given": "L"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2004"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/15837688/items/UNFX5DS2",
 		"type": "paper-conference",
 		"container-title": "Multisensor, Multisource Information Fusion: Architectures, Algorithms, and Applications 2003",
@@ -3993,127 +3928,6 @@
 			"date-parts": [
 				[
 					"2001"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/GJLRS3ET",
-		"type": "paper-conference",
-		"container-title": "BIOPHYSICAL JOURNAL",
-		"note": "issue: 1",
-		"page": "366A–366A",
-		"publisher": "BIOPHYSICAL SOCIETY 9650 ROCKVILLE PIKE, BETHESDA, MD 20814-3998 USA",
-		"title": "A structural and functional, model of troponin-I and troponin-C in the ternary troponin complex",
-		"volume": "78",
-		"author": [
-			{
-				"family": "Luo",
-				"given": "Y"
-			},
-			{
-				"family": "Wu",
-				"given": "JL"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Langsetmo",
-				"given": "K"
-			},
-			{
-				"family": "Gergely",
-				"given": "J"
-			},
-			{
-				"family": "Tao",
-				"given": "T"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2000"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/8CH3T2DA",
-		"type": "paper-conference",
-		"container-title": "BIOPHYSICAL JOURNAL",
-		"note": "issue: 1",
-		"page": "393A–393A",
-		"publisher": "BIOPHYSICAL SOCIETY 9650 ROCKVILLE PIKE, BETHESDA, MD 20814-3998 USA",
-		"title": "Residues in the inhibitory and the second actin-binding regions of skeletal muscle troponin-I photocrosslink to different actin subunits in the reconstituted thin filament.",
-		"volume": "78",
-		"author": [
-			{
-				"family": "Luo",
-				"given": "Y"
-			},
-			{
-				"family": "Leszyk",
-				"given": "J"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Li",
-				"given": "ZX"
-			},
-			{
-				"family": "Gergely",
-				"given": "J"
-			},
-			{
-				"family": "Tao",
-				"given": "T"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2000"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/15837688/items/5LY8ZA7H",
-		"type": "paper-conference",
-		"container-title": "BIOPHYSICAL JOURNAL",
-		"note": "issue: 1",
-		"page": "A158–A158",
-		"publisher": "CELL PRESS 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA",
-		"title": "Interactions of troponin-I met121 with the N-terminal hydrophobic pocket of troponin-C.",
-		"volume": "76",
-		"author": [
-			{
-				"family": "Luo",
-				"given": "Y"
-			},
-			{
-				"family": "Li",
-				"given": "B"
-			},
-			{
-				"family": "Gergely",
-				"given": "L"
-			},
-			{
-				"family": "Tao",
-				"given": "T"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1999"
 				]
 			]
 		}
