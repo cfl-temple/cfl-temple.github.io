@@ -1,24 +1,21 @@
 ---
 layout: member
 category: student
-degree: phd
 title: Anway Bose
 image: anway.jpg
 role: PhD Student
 permalink: /team/bose-anway
 social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
+    linkedin: https://www.linkedin.com/anway-bose
+    google-scholar: https://scholar.google.com/citations?user=S09uifcAAAAJ&hl=en
+    github: https://github.com/anwaybose
     website:
-    orcid: https://orcid.org/0000-0002-6036-5947
-    research-gate: https://www.researchgate.net/
+    orcid: https://orcid.org/0000-0002-7145-6203
+    research-gate: https://www.researchgate.net/profile/Anway-Bose?ev=hdr_xprf
 education:
  - Education: 
-    -- BSEE at Temple University, 1996
-    -- MSEEE at Drexel University, 1998
-    -- PhD EE at Drexel University, 2001
+    - B.Tech at Jalpaiguri Government Engineering College, 2014-2018
+    - PhD ECE at Temple University, 2021-2026
 ---
 
-Anway Bose is a PhD student in Electrical and Computer Engineering at Temple University. 
+Anway Bose is a PhD student in Electrical and Computer Engineering at Temple University, specializing in privacy-preserving federated optimization for multi-agent collaborative systems. His research spans distributed control, power systems, and robotics, with a focus on secure and efficient coordination among decentralized agents. Throughout his doctoral work, he has contributed to Department of Defense–sponsored projects examining vulnerabilities in multi-agent AI applications. 
