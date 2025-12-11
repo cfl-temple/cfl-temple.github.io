@@ -17,4 +17,4 @@ social:
 education:
 ---
 
-Mr. James (Qiangguo) Ren was a PhD student. His research interest was multi-agent system, optimization and smart grid.
+Dr. James (Qiangguo) Ren's research interest was multi-agent system, optimization and smart grid.
