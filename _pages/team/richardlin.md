@@ -16,7 +16,7 @@ social:
     research-gate: https://www.researchgate.net/
 education:
  - Education: 
-    -- BSECE at Temple University, 2024-2028
----
+    -BSECE at Temple University, 2024-2028
+--
 
 Richard Lin is a undergraduate student in Electrical and Computer Engineering at Temple University. 
