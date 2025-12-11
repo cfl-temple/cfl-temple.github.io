@@ -12,6 +12,7 @@ permalink: /publications/
 <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#conferences" aria-controls="conferences" role="tab" data-toggle="tab">Conference Publications</a></li>
     <li role="presentation"><a href="#journals" aria-controls="journals" role="tab" data-toggle="tab">Journal Publications</a></li>
+    <li role="presentation"><a href="#byyear" aria-controls="byyear" role="tab" data-toggle="tab">By Year</a></li>
 </ul>
 
 <!-- Tab Content -->
@@ -122,5 +123,67 @@ permalink: /publications/
             {% endfor %}
             </div>
         </div>
+    </div>
+
+    <!-- By Year -->
+    <div role="tabpanel" class="tab-pane" id="byyear">
+        {% assign years = "2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005" | split: "," %}
+        {% for year in years %}
+        {% assign year_pubs = site.data.publications | where_exp: "pub", "pub.issued.date-parts[0][0] == year" %}
+        {% if year_pubs.size > 0 %}
+        <h3>{{ year }}</h3>
+        <div class="panel-group" id="accordion-year-{{year}}">
+            <div class="panel panel-default">
+            {% assign year_index = 0 %}
+            {% for publi in site.data.publications %}
+                {% assign pub_year = publi.issued.date-parts | first | first | append: "" %}
+                {% if pub_year == year %}
+                {% assign year_index = year_index | plus: 1 %}
+                <div class="panel-heading">
+                    <a data-toggle="collapse" data-parent="#accordion-year-{{year}}"
+                       href="#collapse-year-{{year}}-{{year_index}}"
+                       style="color: inherit;">
+                    <!-- authors -->
+                    {% assign authors = "" | split:"/" %}
+                    {% for author in publi.author %}
+                        {% assign authors = authors | push: author.family %}
+                    {% endfor %}
+                    {{ authors | array_to_sentence_string }},
+
+                    <!-- title with link -->
+                    "{{ publi.title }}",
+
+                    <!-- container -->
+                    <b>{{ publi.container-title }}</b>
+
+                    <!-- type badge -->
+                    {% if publi.type == "paper-conference" %}
+                    <span class="label label-info">Conference</span>
+                    {% elsif publi.type == "article-journal" %}
+                    <span class="label label-success">Journal</span>
+                    {% endif %}
+
+                    <!-- DOI -->
+                    {% if publi.DOI %}
+                        <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                    {% endif %}
+                    </a>
+                </div>
+
+                <div id="collapse-year-{{year}}-{{year_index}}" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>{{ publi.abstract }}</p>
+                        {% if publi.DOI %}
+                        <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                           role="button" target="blank">Link</a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
