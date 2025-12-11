@@ -1,4 +1,20 @@
 [
+		{
+	"id": "10944665",
+	"type": "paper-conference",
+	"title": "Optimization-based Control of Variable Speed Diesel Generators",
+	"author": [
+		{ "family": "Amato", "given": "Joseph" },
+		{ "family": "Bose", "given": "Anway" },
+		{ "family": "Bai", "given": "Li" }
+	],
+	"container-title": "2025 59th Annual Conference on Information Sciences and Systems (CISS)",
+	"issued": { "date-parts": [[2025]] },
+	"page": "1-6",
+	"DOI": "10.1109/CISS64860.2025.10944665",
+	"keyword": "Schedules; Power demand; Generators; Synchronous generators; Stability analysis; Fuels; Marine vehicles; Frequency synchronization; Optimization; Engines; Variable speed generator; optimization-based control; fuel efficiency"
+	},
+
 	{
 		"id": "http://zotero.org/users/15837688/items/9VERGC8H",
 		"type": "paper-conference",
