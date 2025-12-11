@@ -45,7 +45,7 @@ permalink: /team/
 {% assign members = site.pages | sort: 'title' %}
 {% assign phd_index = 0 %}
 {% for member in members %}
-    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'phd' %}
+    {% if member.path contains 'team/' and member.category == 'student' and member.role == 'PhD Student' %}
     {% assign phd_index = phd_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
@@ -54,7 +54,6 @@ permalink: /team/
                 style="max-width: 100px; margin: 0 auto;"/>
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
-        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
     </div>
     {% assign mod = phd_index | modulo: 3 %}
     {% if mod == 0 %}
@@ -71,7 +70,7 @@ permalink: /team/
 {% assign members = site.pages | sort: 'title' %}
 {% assign ms_index = 0 %}
 {% for member in members %}
-    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'master' %}
+    {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Master Student' %}
     {% assign ms_index = ms_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
@@ -80,7 +79,6 @@ permalink: /team/
                 style="max-width: 100px; margin: 0 auto;"/>
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
-        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
     </div>
     {% assign mod = ms_index | modulo: 3 %}
     {% if mod == 0 %}
@@ -97,7 +95,7 @@ permalink: /team/
 {% assign members = site.pages | sort: 'title' %}
 {% assign ug_index = 0 %}
 {% for member in members %}
-    {% if member.path contains 'team/' and member.category == 'student' and member.degree == 'undergrad' %}
+    {% if member.path contains 'team/' and member.category == 'student' and member.role == 'Undergraduate Student' %}
     {% assign ug_index = ug_index | plus: 1 %}
     <div class="col-md-4 col-sm-6 text-center" style="margin-bottom: 20px;">
         <a href="{{ site.baseurl }}{{ member.url }}">
@@ -106,7 +104,6 @@ permalink: /team/
                 style="max-width: 100px; margin: 0 auto;"/>
         </a>
         <h5 style="margin-top: 10px;">{{ member.title }}</h5>
-        <p class="text-muted" style="font-size: 12px;">{{ member.role }}</p>
     </div>
     {% assign mod = ug_index | modulo: 3 %}
     {% if mod == 0 %}
