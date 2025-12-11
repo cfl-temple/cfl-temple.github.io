@@ -13,6 +13,7 @@ permalink: /publications/
     <li role="presentation" class="active"><a href="#conferences" aria-controls="conferences" role="tab" data-toggle="tab">Conference Publications</a></li>
     <li role="presentation"><a href="#journals" aria-controls="journals" role="tab" data-toggle="tab">Journal Publications</a></li>
     <li role="presentation"><a href="#byyear" aria-controls="byyear" role="tab" data-toggle="tab">By Year</a></li>
+    <li role="presentation"><a href="#search" aria-controls="search" role="tab" data-toggle="tab">Search</a></li>
 </ul>
 
 <!-- Tab Content -->
@@ -253,4 +254,88 @@ permalink: /publications/
             </div>
         </div>
     </div>
+
+    <!-- Search -->
+    <div role="tabpanel" class="tab-pane" id="search">
+        <div style="margin: 20px 0;">
+            <input type="text" id="pub-search" class="form-control" placeholder="Search by title, author, or keyword..." style="max-width: 500px;">
+        </div>
+        <div id="search-results">
+            <p class="text-muted">Enter a search term to find publications.</p>
+        </div>
+        
+        <!-- Hidden list of all publications for search -->
+        <div id="all-publications" style="display: none;">
+            {% assign search_index = 0 %}
+            {% for publi in site.data.publications %}
+            {% assign search_index = search_index | plus: 1 %}
+            <div class="pub-item" data-index="{{search_index}}"
+                 data-title="{{ publi.title | downcase }}"
+                 data-authors="{% for author in publi.author %}{{ author.family | downcase }} {{ author.given | downcase }} {% endfor %}"
+                 data-venue="{{ publi.container-title | downcase }}"
+                 data-year="{{ publi.issued.date-parts | first | first }}"
+                 data-abstract="{{ publi.abstract | downcase | default: '' }}">
+                <div class="panel-heading" style="border-bottom: 1px solid #ddd; padding: 10px;">
+                    {% assign authors = "" | split:"/" %}
+                    {% for author in publi.author %}
+                        {% assign authors = authors | push: author.family %}
+                    {% endfor %}
+                    {{ authors | array_to_sentence_string }},
+                    "{{ publi.title }}",
+                    <b>{{ publi.container-title }}</b>
+                    ({{ publi.issued.date-parts | first | first }})
+                    {% if publi.type == "paper-conference" %}
+                    <span class="label label-info">Conference</span>
+                    {% elsif publi.type == "article-journal" %}
+                    <span class="label label-success">Journal</span>
+                    {% endif %}
+                    {% if publi.DOI %}
+                        <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var searchInput = document.getElementById('pub-search');
+    var searchResults = document.getElementById('search-results');
+    var allPubs = document.getElementById('all-publications');
+    var pubItems = allPubs.querySelectorAll('.pub-item');
+    
+    searchInput.addEventListener('input', function() {
+        var query = this.value.toLowerCase().trim();
+        
+        if (query.length < 2) {
+            searchResults.innerHTML = '<p class="text-muted">Enter at least 2 characters to search.</p>';
+            return;
+        }
+        
+        var results = [];
+        pubItems.forEach(function(item) {
+            var title = item.getAttribute('data-title') || '';
+            var authors = item.getAttribute('data-authors') || '';
+            var venue = item.getAttribute('data-venue') || '';
+            var abstract = item.getAttribute('data-abstract') || '';
+            var year = item.getAttribute('data-year') || '';
+            
+            if (title.indexOf(query) !== -1 || 
+                authors.indexOf(query) !== -1 || 
+                venue.indexOf(query) !== -1 ||
+                abstract.indexOf(query) !== -1 ||
+                year.indexOf(query) !== -1) {
+                results.push(item.querySelector('.panel-heading').outerHTML);
+            }
+        });
+        
+        if (results.length > 0) {
+            searchResults.innerHTML = '<p><strong>' + results.length + ' result(s) found:</strong></p>' + results.join('');
+        } else {
+            searchResults.innerHTML = '<p class="text-muted">No publications found matching "' + query + '".</p>';
+        }
+    });
+});
+</script>
