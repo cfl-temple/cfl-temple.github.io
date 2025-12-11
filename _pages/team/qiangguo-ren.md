@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Qiangguo Ren
 image: jamesren.png
-role: Graduate Student
+role: Alumni
 permalink: /team/qiangguo-ren
 grad_year: 2017
 social:

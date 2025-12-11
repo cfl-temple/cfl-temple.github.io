@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Michael Korostelev
 image: korostelev.png
-role: Graduate Student
+role: Alumni
 permalink: /team/michael-korostelev
 grad_year: 2017
 social:

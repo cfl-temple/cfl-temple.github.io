@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Ying Feng
 image: feng.png
-role: Graduate Student
+role: Alumni
 permalink: /team/ying-feng
 grad_year: 2017
 social:

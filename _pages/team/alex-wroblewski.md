@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Alex Wroblewski
 image: alex.png
-role: Undergraduate Student
+role: Alumni
 permalink: /team/alex-wroblewski
 grad_year: 2018
 social:

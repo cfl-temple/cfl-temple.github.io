@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Hanlu Yang
 image: hanlu.png
-role: Graduate Student
+role: Alumni
 permalink: /team/hanlu-yang
 grad_year: 2019
 social:

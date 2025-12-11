@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Danfeng Xie
 image: danfeng.jpg
-role: Graduate Student
+role: Alumni
 permalink: /team/danfeng-xie
 grad_year: 2019
 social:
