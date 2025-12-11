@@ -1,40 +1,4315 @@
 [
 	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"id": "http://zotero.org/users/15837688/items/9VERGC8H",
+		"type": "paper-conference",
+		"container-title": "2024 IEEE Conference on Communications and Network Security (CNS)",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "A Resilient RAP Solution Using Market-based Multi-Agent Systems",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Bai",
+				"given": "Li"
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Bose",
+				"given": "Anway"
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
+				"family": "Li",
+				"given": "Zhuo"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2019",
-					2
+					"2024"
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UD79KUE9",
+		"type": "paper-conference",
+		"container-title": "2024 IEEE International Conference on Green Energy and Smart Systems (GESS)",
+		"page": "1–7",
+		"publisher": "IEEE",
+		"title": "Federated Learning-Based Resilient Control of Shipboard Power System",
+		"author": [
+			{
+				"family": "Base",
+				"given": "Anway"
+			},
+			{
+				"family": "Amato",
+				"given": "Joseph"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/8YPMWY9H",
+		"type": "paper-conference",
+		"container-title": "2023 IEEE 20th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
+		"page": "178–185",
+		"publisher": "IEEE",
+		"title": "A fully decentralized homomorphic federated learning framework",
+		"author": [
+			{
+				"family": "Bose",
+				"given": "Anway"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NREBRJK8",
+		"type": "paper-conference",
+		"container-title": "2023 32nd International Conference on Computer Communications and Networks (ICCCN)",
+		"page": "1–7",
+		"publisher": "IEEE",
+		"title": "A secure federated learning approach to smart microgrid stability prediction",
+		"author": [
+			{
+				"family": "Reza",
+				"given": "Abtahi"
+			},
+			{
+				"family": "Bose",
+				"given": "Anway"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/CNR3BDBL",
+		"type": "paper-conference",
+		"container-title": "2023 IEEE International Conference on Metaverse Computing, Networking and Applications (MetaCom)",
+		"page": "226–233",
+		"publisher": "IEEE",
+		"title": "Securing Distributed Computing in the Metaverse: A Balanced TGDH Encryption Scheme",
+		"author": [
+			{
+				"family": "Bose",
+				"given": "Anway"
+			},
+			{
+				"family": "Nori",
+				"given": "John L"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/KPX8XE24",
+		"type": "paper-conference",
+		"container-title": "2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
+		"page": "800–804",
+		"publisher": "IEEE",
+		"title": "DARwIn-OP: A Smart Elderly-Assistant and Companion",
+		"author": [
+			{
+				"family": "Bose",
+				"given": "Anway"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/SVNPF87G",
+		"type": "paper-conference",
+		"container-title": "2022 IEEE 19th International Conference on Mobile Ad Hoc and Smart Systems (MASS)",
+		"page": "325–331",
+		"publisher": "IEEE",
+		"title": "Time constraint finite-horizon path planning solution for micromouse extreme problem",
+		"author": [
+			{
+				"family": "Bose",
+				"given": "Anway"
+			},
+			{
+				"family": "Bruno",
+				"given": "Joseph"
+			},
+			{
+				"family": "Dames",
+				"given": "Philip"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/XFCQMUYQ",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:2005.07784",
+		"title": "A learning-from-noise dilated wide activation network for denoising arterial spin labeling (ASL) perfusion images",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Zhang",
+				"given": "Lei"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/THIU68XM",
+		"type": "article-journal",
+		"container-title": "Magnetic resonance in medicine",
+		"issue": "4",
+		"page": "1724–1733",
+		"title": "Accelerating GluCEST imaging using deep learning for B0 correction",
+		"volume": "84",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Cember",
+				"given": "Abigail"
+			},
+			{
+				"family": "Nanga",
+				"given": "Ravi Prakash Reddy"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Kumar",
+				"given": "Dushyant"
+			},
+			{
+				"family": "Hariharan",
+				"given": "Hari"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Detre",
+				"given": "John A"
+			},
+			{
+				"family": "Reddy",
+				"given": "Ravinder"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/ARXT46AI",
+		"type": "article-journal",
+		"container-title": "Magnetic resonance imaging",
+		"note": "publisher: Elsevier",
+		"page": "95–105",
+		"title": "Denoising arterial spin labeling perfusion MRI with deep machine learning",
+		"volume": "68",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Wang",
+				"given": "Tianyao"
+			},
+			{
+				"family": "Zhou",
+				"given": "Fuqing"
+			},
+			{
+				"family": "Zhang",
+				"given": "Lei"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7598JKLR",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 2020 ISMRM & SMRT Virtual Conference & Exhibition",
+		"page": "8–14",
+		"title": "Estimating cerebral blood flow from BOLD signal using deep dilated wide activation networks",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Song",
+				"given": "Donghui"
+			},
+			{
+				"family": "Shang",
+				"given": "Yuanqi"
+			},
+			{
+				"family": "Ge",
+				"given": "Qiu"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/DGYFQ2T5",
+		"type": "paper-conference",
+		"container-title": "Machine Learning in Medical Imaging: 10th International Workshop, MLMI 2019, Held in Conjunction with MICCAI 2019, Shenzhen, China, October 13, 2019, Proceedings 10",
+		"page": "373–381",
+		"publisher": "Springer International Publishing",
+		"title": "Bold fMRI-based brain perfusion prediction using deep dilated wide activation networks",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Yang",
+				"given": "HanLu"
+			},
+			{
+				"family": "Song",
+				"given": "Donghui"
+			},
+			{
+				"family": "Shang",
+				"given": "Yuanqi"
+			},
+			{
+				"family": "Ge",
+				"given": "Qiu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/SYURSJH6",
+		"type": "paper-conference",
+		"container-title": "2018 ASEE Annual Conference & Exposition",
+		"title": "A hardware-in-the-loop experimental platform for power grid security",
+		"author": [
+			{
+				"family": "Kollmer",
+				"given": "James Dylan"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Sarwat",
+				"given": "Arif I"
+			},
+			{
+				"family": "Saad",
+				"given": "Walid"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/MV7LSVC5",
+		"type": "article-journal",
+		"container-title": "arXiv preprint arXiv:1801.09672",
+		"title": "Denoising arterial spin labeling cerebral blood flow images using deep learning",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/RKDEU8GD",
+		"type": "article-journal",
+		"container-title": "Applied Computational Intelligence and Soft Computing",
+		"issue": "1",
+		"note": "publisher: Hindawi Publishing Corporation",
+		"page": "1320780",
+		"title": "Deep learning in visual computing and signal processing",
+		"volume": "2017",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Zhang",
+				"given": "Lei"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/29957RZX",
+		"type": "paper-conference",
+		"container-title": "2017 ASEE Annual Conference & Exposition",
+		"title": "Development of an Experimental Platform for Analysis of Cyber Attacks on the Power Grid",
+		"author": [
+			{
+				"family": "Kollmer",
+				"given": "James Dylan"
+			},
+			{
+				"family": "Irwin",
+				"given": "Robert Sambuca"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Saad",
+				"given": "Walid"
+			},
+			{
+				"family": "Sarwat",
+				"given": "Arif I"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/XX2M4CAF",
+		"type": "paper-conference",
+		"container-title": "2017 Resilience Week (RWS)",
+		"page": "50–56",
+		"publisher": "IEEE",
+		"title": "Using simulators to assess knowledge and behavior of “novice” operators of critical infrastructure under cyberattack events",
+		"author": [
+			{
+				"family": "Rege",
+				"given": "Aunshul"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Parker",
+				"given": "Edward"
+			},
+			{
+				"family": "McJunkin",
+				"given": "Timothy R"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/66F8QVEX",
+		"type": "paper-conference",
+		"container-title": "2016 ASEE Annual Conference & Exposition",
+		"title": "An Intelligent Tutoring System for Multimedia Virtual Power Laboratory",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Butz",
+				"given": "Brian P"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/S7TNKGBS",
+		"type": "paper-conference",
+		"container-title": "2016 Resilience Week (RWS)",
+		"page": "77–82",
+		"publisher": "IEEE",
+		"title": "Energy saving in microgrid with tree configurations using Nash Bargaining Solution",
+		"author": [
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/2AI7Y9UD",
+		"type": "paper-conference",
+		"container-title": "2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA)",
+		"page": "745–748",
+		"publisher": "IEEE",
+		"title": "A hierarchical deep neural network for fault diagnosis on Tennessee-Eastman process",
+		"author": [
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/WYF5R26M",
+		"type": "paper-conference",
+		"container-title": "ANNALS OF BEHAVIORAL MEDICINE",
+		"page": "S4–S4",
+		"publisher": "SPRINGER 233 SPRING ST, NEW YORK, NY 10013 USA",
+		"title": "AMOBILE AND NURSE FOLLOW-UP INTERVENTION TO STRENGTHEN PATIENTS'TRANSITION FROM HOSPITAL TO HOME",
+		"volume": "49",
+		"author": [
+			{
+				"family": "Wen",
+				"given": "Kuang-Yi"
+			},
+			{
+				"family": "Patrick",
+				"given": "Kenneth"
+			},
+			{
+				"family": "LeBlanc",
+				"given": "Allura"
+			},
+			{
+				"family": "Murray",
+				"given": "Julie"
+			},
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Pendleton",
+				"given": "Delinda"
+			},
+			{
+				"family": "Back",
+				"given": "Robert"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/3I8CN6KI",
+		"type": "paper-conference",
+		"container-title": "2015 Resilience Week (RWS)",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "Consensus power agent model and stability analysis for (n, k)-star power grids",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4WERPTWM",
+		"type": "paper-conference",
+		"container-title": "2015 Resilience Week (RWS)",
+		"page": "1–8",
+		"publisher": "IEEE",
+		"title": "Demand-supply balancing using multi-agent system for bus-oriented microgrids",
+		"author": [
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/U8JJZIZS",
+		"type": "article-journal",
+		"container-title": "International Journal of Electrical, Computer, Electronics and Communication Engineering",
+		"issue": "1",
+		"page": "2–8",
+		"title": "Fault tolerant (nk)-star power network topology for multi-agent communication in automated power distribution systems",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/WVHAJMEY",
+		"type": "paper-conference",
+		"container-title": "2015 ASEE Annual Conference & Exposition",
+		"page": "26–1714",
+		"title": "Web-Based Scalable Intelligent Multimedia Virtual Laboratory for Power Engineering",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Butz",
+				"given": "Brian P"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Douglas",
+				"given": "Daniel J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/SULWLHHC",
+		"type": "paper-conference",
+		"container-title": "2014 7th International Symposium on Resilient Control Systems (ISRCS)",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "A BDI multi-agent approach for power restoration",
+		"author": [
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NSAR9IXU",
+		"type": "paper-conference",
+		"container-title": "2014 International Conference on Collaboration Technologies and Systems (CTS)",
+		"page": "652–656",
+		"publisher": "IEEE",
+		"title": "A bdi agent-based approach for power restoration",
+		"author": [
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/T38JFF2Y",
+		"type": "paper-conference",
+		"container-title": "2014 7th International Symposium on Resilient Control Systems (ISRCS)",
+		"page": "1–7",
+		"publisher": "IEEE",
+		"title": "Adversary dynamics and smart grid security: A multiagent system approach",
+		"author": [
+			{
+				"family": "Rege",
+				"given": "Aunshul"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NHQR6B8P",
+		"type": "paper-conference",
+		"container-title": "2014 7th International Symposium on Resilient Control Systems (ISRCS)",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "Evaluation of highly conditionally diagnosable (n, k)-star topology for applications in resilient network on chip",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj K"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/MI9IUI8U",
+		"type": "paper-conference",
+		"container-title": "2014 7th International Conference on Biomedical Engineering and Informatics",
+		"page": "762–768",
+		"publisher": "IEEE",
+		"title": "M 2-pass: Sms-based mobile patient support and responding to challenges of transitional care",
+		"author": [
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Hu",
+				"given": "Angela"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Wen",
+				"given": "Kuang-Yi"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/J97F9I76",
+		"type": "paper-conference",
+		"container-title": "Phytopathology",
+		"note": "issue: 3",
+		"page": "4–4",
+		"publisher": "AMER PHYTOPATHOLOGICAL SOC 3340 PILOT KNOB ROAD, ST PAUL, MN 55121 USA",
+		"title": "Molecular mechanisms of thifluzamide resistance in Rhizoctonia solani",
+		"volume": "104",
+		"author": [
+			{
+				"family": "Mu",
+				"given": "W"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Chen",
+				"given": "C"
+			},
+			{
+				"family": "Liu",
+				"given": "X"
+			},
+			{
+				"family": "Hao",
+				"given": "J"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4BFKNY9P",
+		"type": "paper-conference",
+		"container-title": "Special Session on Technology for People with Disorders of the Upper an the Lower Limbs",
+		"page": "312–315",
+		"publisher": "SciTePress",
+		"title": "PIPSS-A Portable Instrument Postural Stability System to Assess Dynamic Postural Stability",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Zoor",
+				"given": "Assaf"
+			},
+			{
+				"family": "Tucker",
+				"given": "Carole A"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/T5N28VF6",
+		"type": "paper-conference",
+		"container-title": "2013 6th International Symposium on Resilient Control Systems (ISRCS)",
+		"page": "25–30",
+		"publisher": "IEEE",
+		"title": "Distributed fuzzy logic price negotiation in market based multi-agent control",
+		"author": [
+			{
+				"family": "Thibodeau",
+				"given": "Brian"
+			},
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/8IV4YM4N",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Image Processing",
+		"issue": "7",
+		"note": "publisher: IEEE",
+		"page": "2661–2675",
+		"title": "Efficient minimum error bounded particle resampling L1 tracker with occlusion detection",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Mei",
+				"given": "Xue"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik P"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/HVLHJ42N",
+		"type": "article-journal",
+		"container-title": "Photosynthetica",
+		"issue": "2",
+		"note": "publisher: Springer Netherlands",
+		"page": "238–244",
+		"title": "Enhancement of low-temperature tolerance in transgenic tomato plants overexpressing Lefad7 through regulation of trienoic fatty acids",
+		"volume": "51",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "XY"
+			},
+			{
+				"family": "Teng",
+				"given": "YB"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Meng",
+				"given": "QW"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NK6WXR8V",
+		"type": "paper-conference",
+		"container-title": "2013 6th International Symposium on Resilient Control Systems (ISRCS)",
+		"page": "42–47",
+		"publisher": "IEEE",
+		"title": "Multi-objective consensus of interconnected system of multi-agent systems",
+		"author": [
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/BPYSWECP",
+		"type": "article-journal",
+		"container-title": "International Journal of E-Health and Medical Communications (IJEHMC)",
+		"issue": "4",
+		"note": "publisher: IGI Global",
+		"page": "34–47",
+		"title": "Securing Remote Obstetrics Monitoring Systems",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Tan",
+				"given": "Chiu C"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Mastrogiannis",
+				"given": "Dimitrios S"
+			},
+			{
+				"family": "Wu",
+				"given": "Jie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2013"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/U94YVI6J",
+		"type": "paper-conference",
+		"container-title": "2012 IEEE 14th International Conference on e-Health Networking, Applications and Services (Healthcom)",
+		"page": "184–189",
+		"publisher": "IEEE",
+		"title": "A survey on PHR technology",
+		"author": [
+			{
+				"family": "Robison",
+				"given": "James"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Mastrogiannis",
+				"given": "Dimitrios S"
+			},
+			{
+				"family": "Tan",
+				"given": "Chiu C"
+			},
+			{
+				"family": "Wu",
+				"given": "Jie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/S25XP7X5",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 7th International Conference on Body Area Networks",
+		"page": "9–12",
+		"title": "Body sensor networks in fetal monitoring with NFC enabled Android devices",
+		"author": [
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Wu",
+				"given": "Jie"
+			},
+			{
+				"family": "Tan",
+				"given": "Chiu Chiang"
+			},
+			{
+				"family": "Mastrogiannis",
+				"given": "Dimitrios"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/YE6UYYT8",
+		"type": "article-journal",
+		"container-title": "International Journal of Innovative Computing Information and Control",
+		"issue": "5B",
+		"page": "3819–3831",
+		"title": "Computation of optimal control of linear systems using Haar wavelets",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/PCXRKL3B",
+		"type": "paper-conference",
+		"container-title": "Evolutionary and Bio-Inspired Computation: Theory and Applications VI",
+		"page": "129–138",
+		"publisher": "SPIE",
+		"title": "Dismount tracking and identification from electro-optical imagery",
+		"volume": "8402",
+		"author": [
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Seetharaman",
+				"given": "Guna"
+			},
+			{
+				"family": "Talbert",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/VQ5BWDG3",
+		"type": "article-journal",
+		"title": "Evolutionary and Bio-Inspired Computation: Theory and Applications VI",
+		"author": [
+			{
+				"family": "Gallagher",
+				"given": "John C"
+			},
+			{
+				"family": "Tang",
+				"given": "Hao"
+			},
+			{
+				"family": "Chang",
+				"given": "Peng"
+			},
+			{
+				"family": "Molina",
+				"given": "Edgardo"
+			},
+			{
+				"family": "Zhu",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"literal": "others"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/DF952YKW",
+		"type": "paper-conference",
+		"container-title": "Evolutionary and Bio-Inspired Computation: Theory and Applications VI",
+		"page": "30–38",
+		"publisher": "SPIE",
+		"title": "Feature-based background registration in wide-area motion imagery",
+		"volume": "8402",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/EBBZ2MMY",
+		"type": "paper-conference",
+		"container-title": "2012 IEEE National Aerospace and Electronics Conference (NAECON)",
+		"page": "212–219",
+		"publisher": "IEEE",
+		"title": "Information fusion reliability analysis for component survivability",
+		"author": [
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UJE8B4AW",
+		"type": "article-journal",
+		"container-title": "International Journal of Performability Engineering",
+		"issue": "2",
+		"page": "151",
+		"title": "Mobile Sensor Deployment and Coverage Using Multi-Agent-based Collective Formation Schemes",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Cheng",
+				"given": "Zhao"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Choudhury",
+				"given": "Dhritiman"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Wu",
+				"given": "Jie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/DXU5MRN3",
+		"type": "paper-conference",
+		"container-title": "2012 15th International Conference on Information Fusion",
+		"page": "1629–1636",
+		"publisher": "IEEE",
+		"title": "Multiple kernel learning for vehicle detection in wide area motion imagery",
+		"author": [
+			{
+				"family": "Liang",
+				"given": "Pengpeng"
+			},
+			{
+				"family": "Teodoro",
+				"given": "Gregory"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/38DVVLWY",
+		"type": "paper-conference",
+		"container-title": "Signal Processing, Sensor Fusion, and Target Recognition XXI",
+		"page": "145–156",
+		"publisher": "SPIE",
+		"title": "Overview of design of experiments performance assessment of multitarget tracking algorithms",
+		"volume": "8392",
+		"author": [
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Yang",
+				"given": "Chun"
+			},
+			{
+				"family": "Kadar",
+				"given": "Ivan"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NZX8JMBD",
+		"type": "article-journal",
+		"container-title": "Omics",
+		"page": "603–614",
+		"title": "RFID technologies for imported foods inspection",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Yan",
+				"given": "Xianghe"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Fratamico",
+				"given": "Pina"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/99W8DIEH",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Image Processing",
+		"issue": "5",
+		"note": "publisher: IEEE",
+		"page": "2824–2837",
+		"title": "Real-time probabilistic covariance tracking with efficient model update",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Cheng",
+				"given": "Jian"
+			},
+			{
+				"family": "Wang",
+				"given": "Jinqiao"
+			},
+			{
+				"family": "Lu",
+				"given": "Hanqing"
+			},
+			{
+				"family": "Wang",
+				"given": "Jun"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/CEQ9R3A9",
+		"type": "paper-conference",
+		"container-title": "2012 5th International Symposium on Resilient Control Systems",
+		"page": "137–142",
+		"publisher": "IEEE",
+		"title": "Resiliency of linear system consensus in the presence of channel noise",
+		"author": [
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/JPPMUEMR",
+		"type": "paper-conference",
+		"container-title": "2012 American Control Conference (ACC)",
+		"page": "5862–5867",
+		"publisher": "IEEE",
+		"title": "Resilient consensus control for linear systems in a noisy environment",
+		"author": [
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/ENTYKM8U",
+		"type": "paper-conference",
+		"container-title": "2012 IEEE 14th International Conference on e-Health Networking, Applications and Services (Healthcom)",
+		"page": "329–334",
+		"publisher": "IEEE",
+		"title": "Security analysis of emerging remote obstetrics monitoring systems",
+		"author": [
+			{
+				"family": "Tan",
+				"given": "Chiu C"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Mastrogiannis",
+				"given": "Dimitrios S"
+			},
+			{
+				"family": "Wu",
+				"given": "Jie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7YS889WK",
+		"type": "paper-conference",
+		"container-title": "2011 IEEE/WIC/ACM International Conferences on Web Intelligence and Intelligent Agent Technology",
+		"page": "442–445",
+		"publisher": "IEEE",
+		"title": "Agile Plant Management Using Agents and Mobile Devices: Enhancing Collaboration and Information Integration in Large-Scale",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Mendoza",
+				"given": "Benito"
+			},
+			{
+				"family": "Xu",
+				"given": "Peng"
+			},
+			{
+				"family": "Ren",
+				"given": "Qiangguo"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7IDF9VVI",
+		"type": "paper-conference",
+		"container-title": "2011 4th International Symposium on Resilient Control Systems",
+		"page": "126–130",
+		"publisher": "IEEE",
+		"title": "Consensus control for linear systems in the presence of environmental and channel noise",
+		"author": [
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NTYZXMPD",
+		"type": "paper-conference",
+		"container-title": "2011 IEEE International Conference on High Performance Computing and Communications",
+		"page": "462–467",
+		"publisher": "IEEE",
+		"title": "Cooperative federated control with application to tracking control",
+		"author": [
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bradshaw",
+				"given": "Kristen"
+			},
+			{
+				"family": "Chaves",
+				"given": "Stephen"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/LFEB57WJ",
+		"type": "paper-conference",
+		"container-title": "ACTA control and applications conference",
+		"page": "462–467",
+		"title": "Cooperative federated multi-agent control of large-scale systems",
+		"author": [
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bradshaw",
+				"given": "Kristen"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/P5RVREDQ",
+		"type": "article-journal",
+		"container-title": "Transactions of the Chinese Society of Agricultural Engineering",
+		"issue": "6",
+		"note": "publisher: Editorial Office of Transactions of the Chinese Society of Agricultural …",
+		"page": "176–181",
+		"title": "Cotton yield estimation based on hyperspectral remote sensing in arid region of China",
+		"volume": "27",
+		"author": [
+			{
+				"family": "Zhuang",
+				"given": "Li"
+			},
+			{
+				"family": "Wang",
+				"given": "Jin"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Jiang",
+				"given": "Guiying"
+			},
+			{
+				"family": "Sun",
+				"given": "Shujiang"
+			},
+			{
+				"family": "Yang",
+				"given": "Peng"
+			},
+			{
+				"family": "Wang",
+				"given": "Shaoming"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/G6US8XF7",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the 8th ACM conference on Creativity and cognition",
+		"page": "359–360",
+		"title": "Dance in augmented reality: calibration and applications",
+		"author": [
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Knauth",
+				"given": "Kathryn"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/3DHHRTXD",
+		"type": "paper-conference",
+		"container-title": "14th International Conference on Information Fusion",
+		"page": "1–8",
+		"publisher": "IEEE",
+		"title": "Evaluation of visual tracking in extremely low frame rate wide area motion imagery",
+		"author": [
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Lang",
+				"given": "Haitao"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7KUX3JAU",
+		"type": "article-journal",
+		"title": "Minimum Error Bounded Efficient L1 Tracker with Occlusion Detection (PREPRINT)",
+		"author": [
+			{
+				"family": "Mei",
+				"given": "Xue"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "OH",
+				"given": "AIR FORCE RESEARCH LAB WRIGHT-PATTERSON AFB"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/KK6SAXDF",
+		"type": "paper-conference",
+		"container-title": "CVPR 2011",
+		"page": "1257–1264",
+		"publisher": "IEEE",
+		"title": "Minimum error bounded efficient ℓ 1 tracker with occlusion detection",
+		"author": [
+			{
+				"family": "Mei",
+				"given": "Xue"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/277658L3",
+		"type": "article-journal",
+		"title": "Multi-agent Based Federated Control of Large-scale Systems with Application to Ship Roll Control",
+		"author": [
+			{
+				"family": "Bradshaw",
+				"given": "Kristen"
+			},
+			{
+				"family": "Chaves",
+				"given": "Stephen"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/48E44HVK",
+		"type": "paper-conference",
+		"container-title": "2011 4th International Symposium on Resilient Control Systems",
+		"page": "142–147",
+		"publisher": "IEEE",
+		"title": "Multi-agent based federated control of large-scale systems with application to ship roll control",
+		"author": [
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Bradshaw",
+				"given": "Kristen"
+			},
+			{
+				"family": "Chaves",
+				"given": "Stephen"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/YJ2XZUF2",
+		"type": "article-journal",
+		"container-title": "Journal of Continuous, Discrete and Impulsive Systems",
+		"page": "573–588",
+		"title": "Multiagent based federated control of a class of nonlinear systems",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Dong",
+				"given": "Qing"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/A4N8Y8T2",
+		"type": "paper-conference",
+		"container-title": "14th International Conference on Information Fusion",
+		"page": "1–8",
+		"publisher": "IEEE",
+		"title": "Multiple source data fusion via sparse representation for robust visual tracking",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/Z9835GCR",
+		"type": "article-journal",
+		"container-title": "Journal of Statistical Planning and Inference",
+		"issue": "8",
+		"note": "publisher: North-Holland",
+		"page": "2576–2588",
+		"title": "Super efficient frequency estimation",
+		"volume": "141",
+		"author": [
+			{
+				"family": "Kundu",
+				"given": "Debasis"
+			},
+			{
+				"family": "Bai",
+				"given": "Zhidong"
+			},
+			{
+				"family": "Nandi",
+				"given": "Swagata"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/5XLU6UAS",
+		"type": "paper-conference",
+		"container-title": "Advances in Visual Computing: 7th International Symposium, ISVC 2011, Las Vegas, NV, USA, September 26-28, 2011. Proceedings, Part I 7",
+		"page": "738–747",
+		"publisher": "Springer Berlin Heidelberg",
+		"title": "Visual tracking based on log-euclidean riemannian sparse representation",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Yi"
+			},
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/Z6DJ2CCE",
+		"type": "article-journal",
+		"container-title": "International Journal of Computers and Applications",
+		"issue": "1",
+		"note": "publisher: Taylor & Francis",
+		"page": "9–14",
+		"title": "A reliable (k, n) image secret sharing scheme with low information overhead",
+		"volume": "32",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/S79A5C26",
+		"type": "paper-conference",
+		"container-title": "2010 IEEE Fifth International Conference on Networking, Architecture, and Storage",
+		"page": "91–99",
+		"publisher": "IEEE",
+		"title": "Design of a Reliable Distributed Secure Database System",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/XVC8J27F",
+		"type": "paper-conference",
+		"container-title": "2010 International Symposium on Intelligent Signal Processing and Communication Systems",
+		"page": "1–4",
+		"publisher": "IEEE",
+		"title": "Interoperable wireless sensor network model using multi-agent-based middleware",
+		"author": [
+			{
+				"family": "Xiong",
+				"given": "Feiyu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/QYGQR4XR",
+		"type": "paper-conference",
+		"container-title": "2010 13th International Conference on Information Fusion",
+		"page": "1–8",
+		"publisher": "IEEE",
+		"title": "Robust infrared vehicle tracking across target pose change using L 1 regularization",
+		"author": [
+			{
+				"family": "Ling",
+				"given": "Haibin"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Mei",
+				"given": "Xue"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/AZA7UVKZ",
+		"type": "paper-conference",
+		"container-title": "Meeting Abstract",
+		"title": "Sustainable wireless sensing technologies for imported foods inspection",
+		"author": [
+			{
+				"family": "Yan",
+				"given": "Xianghe"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/IF536L9A",
+		"type": "article-journal",
+		"container-title": "International journal of security and networks",
+		"issue": "4",
+		"note": "publisher: Inderscience Publishers",
+		"page": "201–209",
+		"title": "A proactive secret sharing scheme in matrix projection method",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Zou",
+				"given": "XuKai"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/RXQ2HHEV",
+		"type": "thesis",
+		"genre": "PhD Thesis",
+		"publisher": "Temple University",
+		"title": "Multi-agent-based interoperable wireless sensor network model",
+		"author": [
+			{
+				"family": "Xiong",
+				"given": "Feiyu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/9SVY8E6Q",
+		"type": "paper-conference",
+		"container-title": "2009 8th International Conference on Reliability, Maintainability and Safety",
+		"page": "16–19",
+		"publisher": "IEEE",
+		"title": "Performance analysis of mobile agent-based wireless sensor network",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Ploskina",
+				"given": "Kathryn"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/8HUYP4V6",
+		"type": "article-journal",
+		"container-title": "Journal of Hunan Public Security College",
+		"title": "The Strategy and Legal Character of Temptation Investigation in Bribery Crime",
+		"author": [
+			{
+				"family": "BAI",
+				"given": "Li-na"
+			},
+			{
+				"family": "REN",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/J8ILKKSF",
+		"type": "paper-conference",
+		"container-title": "2008 16th European Signal Processing Conference",
+		"page": "1–5",
+		"publisher": "IEEE",
+		"title": "A blind steganalysis scheme using estimation techniques",
+		"author": [
+			{
+				"family": "Ortiz",
+				"given": "Albert"
+			},
+			{
+				"family": "Ragunathan",
+				"given": "Balakumar"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Dalessandro",
+				"given": "Don"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/SBR4LAB6",
+		"type": "article-journal",
+		"container-title": "International Journal of Computers and Applications",
+		"issue": "4",
+		"note": "publisher: Taylor & Francis",
+		"page": "331–337",
+		"title": "A new class of key management scheme for access control in dynamic hierarchies",
+		"volume": "30",
+		"author": [
+			{
+				"family": "Zou",
+				"given": "Xukai"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/QLMDKEKT",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Instrumentation and Measurement",
+		"issue": "6",
+		"note": "publisher: IEEE",
+		"page": "1094–1101",
+		"title": "Association of DOA estimation from two ULAs",
+		"volume": "57",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Peng",
+				"given": "Chun-Yang"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/I79IEGTZ",
+		"type": "article-journal",
+		"container-title": "Fusion08",
+		"title": "Net-Centric, Layered-Sensing Issues in Distributed Tracking and Identification Performance Evaluation",
+		"author": [
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Yang",
+				"given": "Chun"
+			},
+			{
+				"family": "Kadar",
+				"given": "Ivan"
+			},
+			{
+				"family": "Chen",
+				"given": "Genshe"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/AY9B3EVL",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Signal Processing",
+		"issue": "8",
+		"note": "publisher: IEEE",
+		"page": "3627–3637",
+		"title": "On the relationship between MMSE-SIC and BI-GDFE receivers for large multiple-input multiple-output channels",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Liang",
+				"given": "Ying-Chang"
+			},
+			{
+				"family": "Cheu",
+				"given": "Eng Yeow"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Pan",
+				"given": "Guangming"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/RXLCN2P6",
+		"type": "paper-conference",
+		"container-title": "2008 IEEE International Conference on Automation Science and Engineering",
+		"page": "715–719",
+		"publisher": "IEEE",
+		"title": "Open architecture for contactless smartcard-based portable electronic payment systems",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Kane",
+				"given": "Gerald"
+			},
+			{
+				"family": "Lyons",
+				"given": "Patrick"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/F96ENZ3F",
+		"type": "paper-conference",
+		"container-title": "2008 14th IEEE International Conference on Parallel and Distributed Systems",
+		"page": "439–446",
+		"publisher": "IEEE",
+		"title": "Optimal Updating Time Using Theory of Reliability",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Xiong",
+				"given": "Feiyu"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UWMW7TB9",
+		"type": "paper-conference",
+		"container-title": "2008 14th IEEE International Conference on Parallel and Distributed Systems",
+		"page": "27–34",
+		"publisher": "IEEE",
+		"title": "Parallel architecture implementation of a reliable (k, n) image sharing scheme",
+		"author": [
+			{
+				"family": "Esposito",
+				"given": "Robert"
+			},
+			{
+				"family": "Mountney",
+				"given": "John"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Silage",
+				"given": "Dennis"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/IGHJBCT2",
+		"type": "paper-conference",
+		"container-title": "Proc. of SPIE",
+		"title": "Performance Assessment of Multitarget Tracking Algorithms in the Real World",
+		"volume": "6968",
+		"author": [
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			},
+			{
+				"family": "Yang",
+				"given": "Chun"
+			},
+			{
+				"family": "Kadar",
+				"given": "I"
+			},
+			{
+				"family": "Chen",
+				"given": "G"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UABYIITG",
+		"type": "article-journal",
+		"container-title": "Scientia Agricultura Sinica",
+		"issue": "8",
+		"title": "Study on hyperspectral remote sensing date of cotton in estimating yield of arid region in china",
+		"volume": "41",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Bai"
+			},
+			{
+				"family": "Jin",
+				"given": "Wang"
+			},
+			{
+				"family": "Guiying",
+				"given": "Jiang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/9D2AD9W5",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Reliability",
+		"issue": "1",
+		"note": "publisher: IEEE",
+		"page": "59–70",
+		"title": "Two-way handshaking circular sequential k -out-of- n congestion system",
+		"volume": "57",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4S6GYP72",
+		"type": "paper-conference",
+		"container-title": "2007 10th International Conference on Information Fusion",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "An estimation approach to extract multimedia information in distributed steganographic images",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik P"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/EXW3CERD",
+		"type": "article-journal",
+		"container-title": "INDUSTRIAL HEALTH AND OCCUPATIONAL DISEASES-BEIJING-",
+		"issue": "6",
+		"note": "publisher: ANSHAN IRON & STEEL CORP.",
+		"page": "370",
+		"title": "Clinical Case Analysis of Acute Severe Carbon Monoxide Poisoning",
+		"volume": "32",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Y"
+			},
+			{
+				"family": "Jiang",
+				"given": "G"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/K8J8L6DU",
+		"type": "article-journal",
+		"container-title": "Journal of Digestive Diseases",
+		"issue": "3",
+		"note": "publisher: Blackwell Publishing Asia Melbourne, Australia",
+		"page": "154–159",
+		"title": "Effects of inflammatory cytokines on the recurrence of liver cancer after an apparently curative operation",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Mao",
+				"given": "Gao Ping"
+			},
+			{
+				"family": "Cao",
+				"given": "Chuan Ping"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/L6W8HVWE",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Reliability",
+		"issue": "2",
+		"note": "publisher: IEEE",
+		"page": "268–274",
+		"title": "Generalized access structure congestion system",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4QCUTRJ7",
+		"type": "paper-conference",
+		"container-title": "Third IEEE International Symposium on Dependable, Autonomic and Secure Computing (DASC 2007)",
+		"page": "95–99",
+		"publisher": "IEEE",
+		"title": "How to update dependable secure computing systems from a survivability assessment perspective?",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Sendaula",
+				"given": "Musoke"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7XKJ8MQF",
+		"type": "paper-conference",
+		"container-title": "2007 IEEE International Conference on Industrial Engineering and Engineering Management",
+		"page": "663–667",
+		"publisher": "IEEE",
+		"title": "Survivability analysis of reconfigurable systems",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ortiz",
+				"given": "Albert"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			},
+			{
+				"family": "Dalessandro",
+				"given": "Don"
+			},
+			{
+				"family": "Dong",
+				"given": "Qing"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/KNB5URSH",
+		"type": "paper-conference",
+		"container-title": "2007 10th International Conference on Information Fusion",
+		"page": "1–8",
+		"publisher": "IEEE",
+		"title": "Survivability-An information fusion process metric from an operational perspective",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Blasch",
+				"given": "Erik P"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/CJBF4GNX",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Reliability",
+		"issue": "3",
+		"note": "publisher: IEEE",
+		"page": "495–505",
+		"title": "Ternary State Circular Sequential k -out-of- n Congestion System",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Zheng",
+				"given": "Fan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/CAWQEUTY",
+		"type": "article-journal",
+		"container-title": "International Journal of Performability Engineering",
+		"issue": "3",
+		"page": "379",
+		"title": "Updating Time for Dependable Secure Computing Systems",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Sendaula",
+				"given": "Musoke"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UWXF8D6U",
+		"type": "paper-conference",
+		"container-title": "2006 2nd IEEE International Symposium on Dependable, Autonomic and Secure Computing",
+		"page": "31–36",
+		"publisher": "IEEE",
+		"title": "A reliable (k, n) image secret sharing scheme",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/66LJ5CA7",
+		"type": "paper-conference",
+		"container-title": "2006 International symposium on a World of wireless, mobile and multimedia networks (WoWMoM'06)",
+		"page": "5–pp",
+		"publisher": "IEEE",
+		"title": "A strong ramp secret sharing scheme using matrix projection",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/2AIE2GM5",
+		"type": "paper-conference",
+		"container-title": "2006 9th International Conference on Information Fusion",
+		"page": "1–6",
+		"publisher": "IEEE",
+		"title": "An image secret sharing method",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ortiz",
+				"given": "Albert"
+			},
+			{
+				"family": "Dalessandro",
+				"given": "Don"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/DXAWGL4X",
+		"type": "article-journal",
+		"container-title": "JOURNAL-JILIN INSTITUTE OF CHEMICAL TECHNOLOGY",
+		"issue": "4",
+		"note": "publisher: THE EDITORIAL OFFICE OF JOURNAL OF JILLIN INSTITUTE OF CHEMICAL TECHNOLOGY",
+		"page": "28",
+		"title": "Membrane resistance analysis and pollution condition research in membrane bio-reactor",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "L"
+			},
+			{
+				"family": "Liu",
+				"given": "Z"
+			},
+			{
+				"family": "Wu",
+				"given": "Y"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/ZAHLDPAL",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Reliability",
+		"issue": "3",
+		"note": "publisher: IEEE",
+		"page": "412–420",
+		"title": "Circular sequential k-out-of-n congestion system",
+		"volume": "54",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/26J5TKGB",
+		"type": "article-journal",
+		"container-title": "Chinese Journal of Digestive Diseases",
+		"issue": "2",
+		"note": "publisher: Blackwell Science Pty 550 Swanston Street (PO Box 378) Carlton South …",
+		"page": "93–97",
+		"title": "Effect of proapoptosis protein on hepatocarcinogenesis",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Bai"
+			},
+			{
+				"family": "CAO",
+				"given": "Chuan-Ping"
+			},
+			{
+				"family": "MAO",
+				"given": "Gao-Ping"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/ZVCXFVYQ",
+		"type": "article-journal",
+		"container-title": "Shi jie hua ren Xiao hua za zhi= World Chinese Journal of Digestology",
+		"issue": "13",
+		"page": "1507–1509",
+		"title": "Effects of inflammatory cytokines on metastasis of liver cancer after apparently curative operation",
+		"volume": "13",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Mao",
+				"given": "Gao-Ping"
+			},
+			{
+				"family": "Cao",
+				"given": "Chuan-Ping"
+			},
+			{
+				"family": "Zhang",
+				"given": "Ying-Hui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/8TLFMP4N",
+		"type": "paper-conference",
+		"container-title": "2005 7th International Conference on Information Fusion",
+		"page": "5–pp",
+		"publisher": "IEEE",
+		"title": "Efficient DOA estimation method employing refined improved polynomial rooting",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Salaria",
+				"given": "Kanupriya"
+			},
+			{
+				"family": "Lin",
+				"given": "Erwie"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/TCIEI8J9",
+		"type": "paper-conference",
+		"container-title": "2005 7th International Conference on Information Fusion",
+		"page": "5–pp",
+		"publisher": "IEEE",
+		"title": "Mobile agent-based distributed fusion (MADFUSION) system",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Landis",
+				"given": "Joel"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Salerno",
+				"given": "John"
+			},
+			{
+				"family": "Hinman",
+				"given": "Michael"
+			},
+			{
+				"family": "Boulware",
+				"given": "Douglas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/CEQCAVUF",
+		"type": "paper-conference",
+		"container-title": "Signal Processing, Sensor Fusion, and Target Recognition XIV",
+		"page": "367–377",
+		"publisher": "SPIE",
+		"title": "Situation assessment for aggregated vehicle merging at an unknown location",
+		"volume": "5809",
+		"author": [
+			{
+				"family": "Salaria",
+				"given": "Kanupriya"
+			},
+			{
+				"family": "Das",
+				"given": "Suman"
+			},
+			{
+				"family": "Hinman",
+				"given": "Michael"
+			},
+			{
+				"family": "Salerno",
+				"given": "John"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/FKYEIV8Y",
+		"type": "paper-conference",
+		"container-title": "2004 IEEE International Conference on Acoustics, Speech, and Signal Processing",
+		"page": "ii–257",
+		"publisher": "IEEE",
+		"title": "Efficient doa estimation method employing unitary improved polynomial rooting",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Lin",
+				"given": "Erwei"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Kam",
+				"given": "Moshe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4RB2RV6F",
+		"type": "article-journal",
+		"container-title": "Chinese Journal of Digestive Diseases",
+		"issue": "4",
+		"note": "publisher: Blackwell Science Pty PO Box 378, Carlton South Victoria 3053, Australia",
+		"page": "175–180",
+		"title": "Mechanism of hepatocytes apoptosis induced by the proapoptosis protein Bid",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Cao",
+				"given": "Chuan Ping"
+			},
+			{
+				"family": "Mao",
+				"given": "Gao Ping"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/SILKAQEV",
+		"type": "paper-conference",
+		"container-title": "Multisensor, Multisource Information Fusion: Architectures, Algorithms, and Applications 2004",
+		"page": "287–294",
+		"publisher": "SPIE",
+		"title": "Object aggregation using merge-at-a-point algorithm",
+		"volume": "5434",
+		"author": [
+			{
+				"family": "Salaria",
+				"given": "Kanupriya"
+			},
+			{
+				"family": "Darsono",
+				"given": "Wiriyanto"
+			},
+			{
+				"family": "Hinman",
+				"given": "Michael"
+			},
+			{
+				"family": "Linderman",
+				"given": "Mark"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/52KM5BHH",
+		"type": "paper-conference",
+		"container-title": "2004 Annual Conference",
+		"page": "9–959",
+		"title": "Online course evaluation and analysis",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/EY3AMAJF",
+		"type": "article-journal",
+		"container-title": "DECHEMA MONOGRAPHIEN",
+		"note": "publisher: WILEY-VCH",
+		"page": "473–478",
+		"title": "RAFT Polymerization in Miniemulsion: a Mechancial Investigation",
+		"volume": "138",
+		"author": [
+			{
+				"family": "Luo",
+				"given": "Y"
+			},
+			{
+				"family": "Yang",
+				"given": "L"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/UNFX5DS2",
+		"type": "paper-conference",
+		"container-title": "Multisensor, Multisource Information Fusion: Architectures, Algorithms, and Applications 2003",
+		"page": "201–210",
+		"publisher": "SPIE",
+		"title": "Object aggregation using neyman-pearson analysis",
+		"volume": "5099",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Hinman",
+				"given": "Michael L"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NVQ9E9AN",
+		"type": "article-journal",
+		"container-title": "The International Journal of Advanced Manufacturing Technology",
+		"note": "publisher: Springer-Verlag London Limited",
+		"page": "501–509",
+		"title": "Fixture configuration design for sheet metal assembly with laser welding: a case study",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Shui",
+				"given": "BW"
+			},
+			{
+				"family": "Lau",
+				"given": "KJ"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/7I9YD6LP",
+		"type": "article-journal",
+		"container-title": "Chin J Neurosurg (Chinese)",
+		"page": "83–86",
+		"title": "The clinical preliminary report of Gamma knife radiosurgery for gliomas",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Yu",
+				"given": "X"
+			},
+			{
+				"family": "Liu",
+				"given": "ZH"
+			},
+			{
+				"family": "Zhou",
+				"given": "DX"
+			},
+			{
+				"family": "Hao",
+				"given": "JM"
+			},
+			{
+				"family": "Du",
+				"given": "JX"
+			},
+			{
+				"family": "Zhang",
+				"given": "W"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/FJEMQ3JP",
+		"type": "article-journal",
+		"container-title": "The International Journal of Advanced Manufacturing Technology",
+		"note": "publisher: Springer-Verlag London Limited",
+		"page": "418–425",
+		"title": "Weld pattern design for sheet metal laser welding considering fixturing quality",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Shiu",
+				"given": "BW"
+			},
+			{
+				"family": "Lau",
+				"given": "KJ"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/ZXLUZ9FY",
+		"type": "paper-conference",
+		"container-title": "Proceedings 5th International Symposium on Autonomous Decentralized Systems",
+		"page": "419–425",
+		"publisher": "IEEE",
+		"title": "Access revocation and prevention of false repudiation in secure email exchanges",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Achuthanandam",
+				"given": "Ramasubramaniam"
+			},
+			{
+				"family": "Kam",
+				"given": "Moshe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/LL6EQCGS",
+		"type": "article-journal",
+		"container-title": "The International Journal of Advanced Manufacturing Technology",
+		"note": "publisher: Springer-Verlag London Limited",
+		"page": "266–275",
+		"title": "Principle and simulation of fixture configuration design for sheet metal assembly with laser welding, part 1: finite-element modelling and a prediction and correction method",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Shiu",
+				"given": "BW"
+			},
+			{
+				"family": "Lau",
+				"given": "KJ"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/NN6JMATG",
+		"type": "article-journal",
+		"container-title": "The International Journal of Advanced Manufacturing Technology",
+		"note": "publisher: Springer-Verlag London Limited",
+		"page": "276–284",
+		"title": "Principle and simulation of fixture configuration design for sheet metal assembly with laser welding, part 2: optimal configuration design with genetic algorithm",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Shiu",
+				"given": "BW"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/6KURGBDB",
+		"type": "thesis",
+		"genre": "PhD Thesis",
+		"publisher": "Drexel University",
+		"title": "Secure electronic mail",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Li"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/GJLRS3ET",
+		"type": "paper-conference",
+		"container-title": "BIOPHYSICAL JOURNAL",
+		"note": "issue: 1",
+		"page": "366A–366A",
+		"publisher": "BIOPHYSICAL SOCIETY 9650 ROCKVILLE PIKE, BETHESDA, MD 20814-3998 USA",
+		"title": "A structural and functional, model of troponin-I and troponin-C in the ternary troponin complex",
+		"volume": "78",
+		"author": [
+			{
+				"family": "Luo",
+				"given": "Y"
+			},
+			{
+				"family": "Wu",
+				"given": "JL"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Langsetmo",
+				"given": "K"
+			},
+			{
+				"family": "Gergely",
+				"given": "J"
+			},
+			{
+				"family": "Tao",
+				"given": "T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/8CH3T2DA",
+		"type": "paper-conference",
+		"container-title": "BIOPHYSICAL JOURNAL",
+		"note": "issue: 1",
+		"page": "393A–393A",
+		"publisher": "BIOPHYSICAL SOCIETY 9650 ROCKVILLE PIKE, BETHESDA, MD 20814-3998 USA",
+		"title": "Residues in the inhibitory and the second actin-binding regions of skeletal muscle troponin-I photocrosslink to different actin subunits in the reconstituted thin filament.",
+		"volume": "78",
+		"author": [
+			{
+				"family": "Luo",
+				"given": "Y"
+			},
+			{
+				"family": "Leszyk",
+				"given": "J"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Li",
+				"given": "ZX"
+			},
+			{
+				"family": "Gergely",
+				"given": "J"
+			},
+			{
+				"family": "Tao",
+				"given": "T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/5LY8ZA7H",
+		"type": "paper-conference",
+		"container-title": "BIOPHYSICAL JOURNAL",
+		"note": "issue: 1",
+		"page": "A158–A158",
+		"publisher": "CELL PRESS 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA",
+		"title": "Interactions of troponin-I met121 with the N-terminal hydrophobic pocket of troponin-C.",
+		"volume": "76",
+		"author": [
+			{
+				"family": "Luo",
+				"given": "Y"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Gergely",
+				"given": "L"
+			},
+			{
+				"family": "Tao",
+				"given": "T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1999"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/AKTCECAT",
+		"type": "paper-conference",
+		"container-title": "BIOPHYSICAL JOURNAL",
+		"note": "issue: 2",
+		"page": "TU292–TU292",
+		"publisher": "CELL PRESS 50 HAMPSHIRE ST, FLOOR 5, CAMBRIDGE, MA 02139 USA",
+		"title": "Interaction of calponin with desmin",
+		"volume": "72",
+		"author": [
+			{
+				"family": "Mabuchi",
+				"given": "K"
+			},
+			{
+				"family": "Li",
+				"given": "B"
+			},
+			{
+				"family": "Ip",
+				"given": "W"
+			},
+			{
+				"family": "Tao",
+				"given": "T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1997"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/INC6IFQ2",
+		"type": "article-journal",
+		"title": "A Portable Instrument Postural Stability System to Assess Dynamic Postural Stability",
+		"author": [
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Zoor",
+				"given": "Assaf"
+			},
+			{
+				"family": "Tucker",
+				"given": "Carole A"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/FQRVNJ8J",
+		"type": "article-journal",
+		"title": "Accelerating the B 0 Inhomogeneity Correction for GluCEST Imaging Using Deep Learning",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Cember",
+				"given": "Abigail"
+			},
+			{
+				"family": "Nanga",
+				"given": "Ravi Prakash Reddy"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Kumar",
+				"given": "Dushyant"
+			},
+			{
+				"family": "Hariharan",
+				"given": "Hari"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Detre",
+				"given": "John A"
+			},
+			{
+				"family": "Reddy",
+				"given": "Ravinder"
+			},
+			{
+				"literal": "others"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/4MN6QIWH",
+		"type": "article-journal",
+		"title": "Analysis of Shipboard Survivable Fire Main Systems",
+		"author": [
+			{
+				"family": "Ortiz",
+				"given": "Albert"
+			},
+			{
+				"family": "Dalessandro",
+				"given": "Don"
+			},
+			{
+				"family": "Qing",
+				"given": "Dong"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/B8LFHXHC",
+		"type": "chapter",
+		"container-title": "2015 Resilience Week (RWS)",
+		"title": "Consensus power agent model and stability analysis for (η, k)-star power grids",
+		"author": [
+			{
+				"family": "Gong",
+				"given": "Ning"
+			},
+			{
+				"family": "Korostelev",
+				"given": "Michael"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Biswas",
+				"given": "Saroj"
+			},
+			{
+				"family": "Ferrese",
+				"given": "Frank"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/15837688/items/BWDFRF9C",
+		"type": "article-journal",
+		"title": "Deep learning-based B 0 inhomogeneities mapping using sparse CEST spectral data",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Yiran"
+			},
+			{
+				"family": "Xie",
+				"given": "Danfeng"
+			},
+			{
+				"family": "Yang",
+				"given": "Hanlu"
+			},
+			{
+				"family": "Bai",
+				"given": "Li"
+			},
+			{
+				"family": "Liu",
+				"given": "Guanshu"
+			},
+			{
+				"family": "Wang",
+				"given": "Ze"
+			}
+		]
 	}
 ]
