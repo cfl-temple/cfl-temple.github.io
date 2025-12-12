@@ -16,9 +16,9 @@ social:
     research-gate:
 education:
 thesis:
-  - title: "RP2040 MICROCONTROLLER CO-PROCESSOR BOARD DESIGN"
-    release: "2023/Project_report_Frank_0411.pdf"
+  - title: "SYNC-Smart: Your Next Companion For Parkinson’s Disease"
+    release: ""
     year: 2026
 ---
 
-Ms. Serena Wu's research interest was chip development.
+Serena WU is a master student in Electrical and Computer Engineering at Temple University, research interest was multi-agent AI applications.
