@@ -17,7 +17,7 @@ social:
 education:
 thesis:
   - title: "Thesis Report"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2009/thesis_zhaocheng.pdf"
+    release: "2009/thesis_zhaocheng.pdf"
     year: 2009
 ---
 

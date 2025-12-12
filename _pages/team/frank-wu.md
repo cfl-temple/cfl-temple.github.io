@@ -2,7 +2,7 @@
 layout: member
 category: past
 title: Frank Wu
-image: jamesren.png
+image: frankwu.png
 role: Alumni
 permalink: /team/frank-wu
 grad_year: 2023
@@ -17,7 +17,7 @@ social:
 education:
 thesis:
   - title: "Project Report"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2023/Project_report_Frank_0411.pdf"
+    release: "2023/Project_report_Frank_0411.pdf"
     year: 2023
 ---
 

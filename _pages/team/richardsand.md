@@ -18,7 +18,7 @@ education:
   - MSEE, Temple University, 2023
 thesis:
   - title: "MSEE Project Report - Robotic Dog"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2023/Richard.Sand.Masters.Project.pdf"
+    release: "2023/Richard.Sand.Masters.Project.pdf"
     year: 2023
 ---
 

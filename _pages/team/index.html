@@ -120,7 +120,15 @@ permalink: /team/
         <p class="text-muted" style="font-size: 12px;">{{ member.role }} ({{ member.grad_year }})</p>
         {% if member.thesis %}
         {% for item in member.thesis %}
-        <p style="font-size: 11px; margin: 5px 0;"><a href="{{ item.url }}" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a></p>
+        {% assign pdf_url = "" %}
+        {% if item.release %}
+            {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
+        {% elsif item.url %}
+            {% assign pdf_url = item.url %}
+        {% endif %}
+        <p style="font-size: 11px; margin: 5px 0;">
+        <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a>
+        </p>
         {% endfor %}
         {% endif %}
     </div>
@@ -158,7 +166,15 @@ permalink: /team/
                     <p class="text-muted" style="font-size: 12px;">{{ member.role }} ({{ member.grad_year }})</p>
                     {% if member.thesis %}
                     {% for item in member.thesis %}
-                    <p style="font-size: 11px; margin: 5px 0;"><a href="{{ item.url }}" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a></p>
+                    {% assign pdf_url = "" %}
+                    {% if item.release %}
+                        {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
+                    {% elsif item.url %}
+                        {% assign pdf_url = item.url %}
+                    {% endif %}
+                    <p style="font-size: 11px; margin: 5px 0;">
+                    <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank"><i class="fas fa-file-pdf"></i> {{ item.title }}</a>
+                    </p>
                     {% endfor %}
                     {% endif %}
                 </div>

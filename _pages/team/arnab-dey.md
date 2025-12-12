@@ -18,7 +18,7 @@ education:
   - MSEE, Temple University, 2025
 thesis:
   - title: "MSEE Project Report - Revidyne Bokeh"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2025/ArnabDey_MSEE_Project_Revidyne_Bokeh.pdf"
+    release: "2025/ArnabDey_MSEE_Project_Revidyne_Bokeh.pdf"
     year: 2025
 ---
 

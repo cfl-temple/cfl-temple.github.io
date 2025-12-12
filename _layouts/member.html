@@ -71,16 +71,21 @@ layout: default
         <h3>Thesis / Project Report</h3>
         <ul style="margin-left: 20px;">
             {% for item in page.thesis %}
+                {% assign pdf_url = "" %}
+                {% if item.release %}
+                    {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
+                {% elsif item.url %}
+                    {% assign pdf_url = item.url %}
+                {% elsif item.file %}
+                    {% assign pdf_url = site.url | append: site.baseurl | append: "/files/" | append: item.file %}
+                {% endif %}
                 <li>
-                    {% if item.url %}
-                    <a href="{{ item.url }}" target="_blank">
+                    <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank">
                         <i class="fas fa-file-pdf"></i> {{ item.title }}
                     </a>
-                    {% elsif item.file %}
-                    <a href="{{ site.baseurl }}/files/{{ item.file }}" target="_blank">
-                        <i class="fas fa-file-pdf"></i> {{ item.title }}
+                    <a href="{{ pdf_url }}" target="_blank" title="Download" style="margin-left: 10px;">
+                        <i class="fas fa-download"></i>
                     </a>
-                    {% endif %}
                     {% if item.year %} ({{ item.year }}){% endif %}
                 </li>
             {% endfor %}

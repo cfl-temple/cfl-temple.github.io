@@ -18,7 +18,7 @@ education:
   - MSME, Temple University, 2025
 thesis:
   - title: "MSME Project Report - Robotic Dog"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2025/Robot.Dog.Final.Paper.pdf"
+    release: "2025/Robot.Dog.Final.Paper.pdf"
     year: 2025
 ---
 

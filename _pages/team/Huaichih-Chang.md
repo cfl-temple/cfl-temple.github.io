@@ -17,7 +17,7 @@ social:
 education:
 thesis:
   - title: "Project Report"
-    url: "https://github.com/cfl-temple/portfolio/releases/download/2024/Project_report_Huaichih.pdf"
+    release: "2024/Project_report_Huaichih.pdf"
     year: 2024
 ---
 
