@@ -4,7 +4,7 @@ category: student
 title: YiHsuan Huang
 image: kelly.png
 role: Master Student
-permalink: /team/serena-wu
+permalink: /team/kelly-huang
 grad_year: 2026
 social:
     twitter:
