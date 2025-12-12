@@ -5,7 +5,7 @@ title: Balakumar Ragunathan
 image: bala.jpg
 role: Alumni
 permalink: /team/balakumar-ragunathan
-grad_year: 2007
+grad_year: 2017
 social:
     twitter:
     linkedin:
@@ -15,7 +15,7 @@ social:
     orcid:
     research-gate:
 education:
- - MSEE, 2007
+ - MSEE, 2017
 ---
 
-MSEE, 2007. Now at Autoliv Electronics.
+MSEE, 2017. Now at Nvidia.
