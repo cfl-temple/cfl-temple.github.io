@@ -1,9 +1,9 @@
 ---
 layout: member
-category: past
+category: student
 title: Ying-Ting Wu
 image: frankwu.png
-role: Alumni
+role: Master Student
 permalink: /team/serena-wu
 grad_year: 2026
 social:
