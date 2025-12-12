@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Joseph Amato
-image: anway.jpg
+image: amato.png
 role: PhD Student
 permalink: /team/joe-amato
 social:
