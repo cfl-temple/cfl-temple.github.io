@@ -1,11 +1,10 @@
 ---
 layout: member
 category: student
-degree: phd
-title: Anway Bose
+title: Sarker Mohammad
 image: anway.jpg
-role: Undergraduate Student
-permalink: /team/bose-anway3
+role: Master Student
+permalink: /team/sarker
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
