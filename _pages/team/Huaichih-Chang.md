@@ -16,7 +16,7 @@ social:
     research-gate:
 education:
 thesis:
-  - title: "Project Report"
+  - title: "ZUMO SHIELD FOR ARDUINO, V1.3 DEVELOPMENT CONTROLLER BOARD DESIGN"
     release: "2024/Project_report_Huaichih.pdf"
     year: 2024
 ---

@@ -16,7 +16,7 @@ social:
     research-gate:
 education:
 thesis:
-  - title: "Project Report"
+  - title: "RP2040 MICROCONTROLLER CO-PROCESSOR BOARD DESIGN"
     release: "2023/Project_report_Frank_0411.pdf"
     year: 2023
 ---
