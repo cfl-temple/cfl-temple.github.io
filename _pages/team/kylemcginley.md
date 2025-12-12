@@ -3,7 +3,7 @@ layout: member
 category: student
 degree: bsece
 title: Kyle McGinley
-image: anway.jpg
+image: kyle.png
 role: Undergraduate Student
 permalink: /team/Kyle McGinley
 social:
