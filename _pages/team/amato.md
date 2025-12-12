@@ -5,6 +5,7 @@ title: Joseph Amato
 image: amato.png
 role: PhD Student
 permalink: /team/joe-amato
+grad_year: 2025
 social:
     linkedin: https://www.linkedin.com/anway-bose
     google-scholar: https://scholar.google.com/citations?user=S09uifcAAAAJ&hl=en
