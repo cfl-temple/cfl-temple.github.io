@@ -6,7 +6,7 @@ image: anway.jpg
 role: PhD Student
 permalink: /team/bose-anway
 social:
-    linkedin: https://www.linkedin.com/anway-bose
+    linkedin: https://www.linkedin.com/in/anway-bose/
     google-scholar: https://scholar.google.com/citations?user=S09uifcAAAAJ&hl=en
     github: https://github.com/anwaybose
     website:
