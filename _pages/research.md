@@ -26,9 +26,9 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
 
 {% assign all_pages = site.pages | sort: 'order' %}
 
-<!-- All Projects -->
+<!-- Recent 3 Projects (expanded) -->
 {% for project in all_pages %}
-{% if project.path contains '_pages/research/' and project.order %}
+{% if project.path contains '_pages/research/' and project.order and project.order <= 3 %}
 
 ### {{ project.title }}
 {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
@@ -56,3 +56,56 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
 
 {% endif %}
 {% endfor %}
+
+<!-- Older Projects (collapsed) -->
+{% assign has_older = false %}
+{% for project in all_pages %}
+  {% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
+    {% assign has_older = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_older %}
+<div class="panel panel-default" style="margin-top: 20px;">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" href="#older-projects" style="color: inherit;">
+                <span class="glyphicon glyphicon-chevron-down"></span> More Projects
+            </a>
+        </h4>
+    </div>
+    <div id="older-projects" class="panel-collapse collapse">
+        <div class="panel-body">
+            {% for project in all_pages %}
+            {% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
+
+            <h3>{{ project.title }}</h3>
+            {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
+
+            <div class="research">
+            {% if project.image %}
+            <img src="{{ site.baseurl }}/images/research/{{ project.image }}" style="max-width: 400px; float: right; margin-left: 20px;">
+            {% endif %}
+            </div>
+
+            {{ project.content }}
+
+            {% if project.team %}
+            <h4>Team Members</h4>
+            <ul>
+            {% for member in project.team %}
+              <li><strong>{{ member.name }}</strong> - {{ member.role }}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+
+            <div style="clear: both;"></div>
+
+            <hr>
+
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
