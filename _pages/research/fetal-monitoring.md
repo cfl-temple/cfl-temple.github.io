@@ -3,6 +3,13 @@ layout: default
 title: Remote Obstetrics Monitoring Systems
 image: fetal.png
 order: 2
+team:
+  - name: "Li Bai"
+    role: "Principal Investigator"
+  - name: "Danfeng Xie"
+    role: "PhD Student"
+  - name: "Hanlu Yang"
+    role: "PhD Student"
 ---
 
 Wireless fetal monitoring will keep mothers, doctors and babies safer.
