@@ -2,7 +2,7 @@
 layout: default
 title: SEPTA Electronic Payment Project
 image: septa.png
-order: 3
+order: 4
 years: 2005-2008
 team:
   - name: "Li Bai"
