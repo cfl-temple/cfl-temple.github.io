@@ -79,6 +79,7 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
             {% for project in older_projects %}
 
             <h3>{{ project.title }}</h3>
+            {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
 
             <div class="research">
             {% if project.image %}
