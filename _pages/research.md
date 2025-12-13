@@ -24,18 +24,19 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
 
 ## Research Projects
 
-{% assign all_pages = site.pages | where_exp: "p", "p.path contains '_pages/research/'" %}
-{% assign projects = "" | split: "" %}
-{% for p in all_pages %}
+{% assign all_projects = site.pages | where_exp: "page", "page.path contains 'research/'" | sort: 'order' %}
+{% assign projects = "" | split: "," %}
+{% for p in all_projects %}
   {% if p.order %}
     {% assign projects = projects | push: p %}
   {% endif %}
 {% endfor %}
-{% assign projects = projects | sort: 'order' %}
+
+{% assign recent_projects = projects | slice: 0, 3 %}
+{% assign older_projects = projects | slice: 3, 100 %}
 
 <!-- Recent Projects (expanded) -->
-{% for project in projects %}
-{% if project.order <= 3 %}
+{% for project in recent_projects %}
 
 ### {{ project.title }}
 
@@ -60,18 +61,10 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
 
 ---
 
-{% endif %}
 {% endfor %}
 
 <!-- Older Projects (collapsed) -->
-{% assign has_older = false %}
-{% for project in projects %}
-  {% if project.order > 3 %}
-    {% assign has_older = true %}
-  {% endif %}
-{% endfor %}
-
-{% if has_older %}
+{% if older_projects.size > 0 %}
 <div class="panel panel-default" style="margin-top: 20px;">
     <div class="panel-heading">
         <h4 class="panel-title">
@@ -82,8 +75,7 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
     </div>
     <div id="older-projects" class="panel-collapse collapse">
         <div class="panel-body">
-            {% for project in projects %}
-            {% if project.order > 3 %}
+            {% for project in older_projects %}
 
             <h3>{{ project.title }}</h3>
 
@@ -108,7 +100,6 @@ The Computer Fusion Laboratory (CFL) is part of Temple University's Electrical a
 
             <hr>
 
-            {% endif %}
             {% endfor %}
         </div>
     </div>
