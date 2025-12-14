@@ -37,6 +37,7 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 *Add your lab's software tools here. For each tool, include:*
 - FPGA Programmer - https://temple.short.gy/svfloader
 - Web double emlimination bracket - http://cflwww.eng.temple.edu/DEB
+- Minipupper course - https://lbaitemple.github.io/minipupperv2
 
 ---
 
