@@ -21,4 +21,4 @@ thesis:
     year: 2023
 ---
 
-Dr. Frank Wu's research interest was chip development.
+Mr. Frank Wu's research interest was chip development.
