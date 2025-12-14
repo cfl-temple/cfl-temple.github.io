@@ -18,4 +18,4 @@ education:
     - PhD ECE at Temple University, 2021-2026
 ---
 
-Joseph Amato completed his PhD student in Electrical and Computer Engineering at Temple University, specializing in privacy-preserving federated optimization for multi-agent collaborative systems. His research spans distributed control, power systems, and robotics, with a focus on secure and efficient coordination among decentralized agents.  
+Dr. Joseph Amato completed his PhD in Electrical and Computer Engineering at Temple University, specializing in privacy-preserving federated optimization for multi-agent collaborative systems. His research spans distributed control, and power systems with a focus on secure and efficient coordination among decentralized agents.  
