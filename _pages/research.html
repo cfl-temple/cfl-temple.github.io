@@ -51,11 +51,19 @@ permalink: /research/
   </div>
 </div>
 
-{% assign all_pages = site.pages | sort: 'order' %}
+{% assign all_projects = "" | split: "" %}
+{% for p in site.pages %}
+  {% if p.path contains '_pages/research/' and p.order %}
+    {% assign all_projects = all_projects | push: p %}
+  {% endif %}
+{% endfor %}
+{% assign all_projects = all_projects | sort: 'order' | reverse %}
 
 <!-- Recent 3 Projects (expanded) -->
-{% for project in all_pages %}
-{% if project.path contains '_pages/research/' and project.order and project.order <= 3 %}
+{% assign count = 0 %}
+{% for project in all_projects %}
+{% if count < 3 %}
+{% assign count = count | plus: 1 %}
 
 <div class="project-item" data-title="{{ project.title | downcase }}" data-content="{{ project.content | strip_html | downcase }}" data-categories="{% for cat in project.categories %}{{ cat | downcase }} {% endfor %}" data-team="{% for member in project.team %}{{ member.name | downcase }} {% endfor %}">
 <h3>{{ project.title }}</h3>
@@ -94,14 +102,9 @@ permalink: /research/
 {% endfor %}
 
 <!-- Older Projects (collapsed) -->
-{% assign has_older = false %}
-{% for project in all_pages %}
-  {% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
-    {% assign has_older = true %}
-  {% endif %}
-{% endfor %}
+{% assign older_count = all_projects | size | minus: 3 %}
 
-{% if has_older %}
+{% if older_count > 0 %}
 
 <div class="panel panel-default" style="margin-top: 20px;">
   <div class="panel-heading">
@@ -113,8 +116,10 @@ permalink: /research/
   </div>
   <div id="older-projects" class="panel-collapse collapse">
     <div class="panel-body">
-{% for project in all_pages %}
-{% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
+{% assign count2 = 0 %}
+{% for project in all_projects %}
+{% assign count2 = count2 | plus: 1 %}
+{% if count2 > 3 %}
       <h3>{{ project.title }}</h3>
       {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
       {% if project.categories %}
