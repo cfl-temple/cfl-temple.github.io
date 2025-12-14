@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Li Bai
-image: bai.jpg
+image: bai.png
 role: Lab Director
 permalink: /team/bai-li
 social:
