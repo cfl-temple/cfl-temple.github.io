@@ -14,7 +14,7 @@ social:
     orcid: https://orcid.org/0000-0002-7145-6203
     research-gate: https://www.researchgate.net/profile/Anway-Bose?ev=hdr_xprf
 education:
-    - Villanova University
+    - MSEE Villanova University
     - PhD ECE at Temple University, 2021-2026
 ---
 
