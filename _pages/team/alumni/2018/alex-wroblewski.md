@@ -15,6 +15,7 @@ social:
     orcid:
     research-gate:
 education:
+- BSEE, 2020
 ---
 
 Mr. Alex Wroblewski was an undergraduate student working on the humanoid robot SMART project, focusing on ROS architecture and data collection tools.
