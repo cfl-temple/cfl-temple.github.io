@@ -23,7 +23,7 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 ---
 
-### Project Name 2
+### Tennessee Eastman Model
 **Description:** This MATLAB code implements a dynamic simulation of the Tennessee Eastman (TE) process, a benchmark industrial chemical process widely used for research in process control, monitoring, and fault diagnosis. The simulation models the plant’s nonlinear dynamics, operating conditions, and disturbances, enabling evaluation of control strategies, state estimation, and fault detection algorithms.
 
 **Technologies:** Matlab, Java
@@ -34,7 +34,7 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 ## Tools & Libraries
 
-*Add your lab's software tools here. For each tool, include:*
+
 - [FPGA Programmer](https://temple.short.gy/svfloader){:target="_blank"}
 - [Web double emlimination bracket](http://cflwww.eng.temple.edu/DEB){:target="_blank"}
 - [Minipupper course](https://lbaitemple.github.io/minipupperv2){:target="_blank"}
