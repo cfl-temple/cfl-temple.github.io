@@ -90,7 +90,14 @@ permalink: /team/
 
 <h2><a id="past"></a>Past Members</h2>
 
-{% assign past_members = site.pages | where: "category", "past" | sort: 'grad_year' | reverse %}
+{% assign all_members = site.pages | where: "category", "past" %}
+{% assign past_members = "" | split: "," %}
+{% for member in all_members %}
+    {% if member.path contains 'team/' %}
+        {% assign past_members = past_members | push: member %}
+    {% endif %}
+{% endfor %}
+{% assign past_members = past_members | sort: 'grad_year' | reverse %}
 {% assign all_years = "" | split: "," %}
 {% for member in past_members %}
     {% assign year_num = member.grad_year | plus: 0 %}
