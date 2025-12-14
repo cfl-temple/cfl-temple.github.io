@@ -26,14 +26,45 @@ permalink: /research/
 
 <h2>Research Projects</h2>
 
+<!-- Search and Filter -->
+<div style="margin: 20px 0;">
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" id="project-search" class="form-control" placeholder="Search projects by title, description, or team member...">
+    </div>
+    <div class="col-md-6">
+      <select id="category-filter" class="form-control">
+        <option value="">All Categories</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="AI/ML">AI/ML</option>
+        <option value="Robotics">Robotics</option>
+        <option value="IoT">IoT</option>
+        <option value="Wireless Networks">Wireless Networks</option>
+        <option value="Software">Software</option>
+        <option value="Mobile Computing">Mobile Computing</option>
+        <option value="Security">Security</option>
+        <option value="Data Analytics">Data Analytics</option>
+      </select>
+    </div>
+  </div>
+</div>
+
 {% assign all_pages = site.pages | sort: 'order' %}
 
 <!-- Recent 3 Projects (expanded) -->
 {% for project in all_pages %}
 {% if project.path contains '_pages/research/' and project.order and project.order <= 3 %}
 
+<div class="project-item" data-title="{{ project.title | downcase }}" data-content="{{ project.content | strip_html | downcase }}" data-categories="{% for cat in project.categories %}{{ cat | downcase }} {% endfor %}" data-team="{% for member in project.team %}{{ member.name | downcase }} {% endfor %}">
 <h3>{{ project.title }}</h3>
 {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
+{% if project.categories %}
+<p>
+{% for cat in project.categories %}
+<span class="label label-primary" style="margin-right: 5px;">{{ cat }}</span>
+{% endfor %}
+</p>
+{% endif %}
 
 <div class="research">
 {% if project.image %}
@@ -55,6 +86,7 @@ permalink: /research/
 <div style="clear: both;"></div>
 
 <hr>
+</div>
 
 {% endif %}
 {% endfor %}
@@ -83,6 +115,13 @@ permalink: /research/
 {% if project.path contains '_pages/research/' and project.order and project.order > 3 %}
       <h3>{{ project.title }}</h3>
       {% if project.years %}<p class="text-muted"><em>{{ project.years }}</em></p>{% endif %}
+      {% if project.categories %}
+      <p>
+      {% for cat in project.categories %}
+      <span class="label label-primary" style="margin-right: 5px;">{{ cat }}</span>
+      {% endfor %}
+      </p>
+      {% endif %}
       <div class="research">
         {% if project.image %}
         <img src="{{ site.baseurl }}/images/research/{{ project.image }}" style="max-width: 400px; float: right; margin-left: 20px;">
@@ -106,3 +145,41 @@ permalink: /research/
 </div>
 
 {% endif %}
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('project-search');
+  var categoryFilter = document.getElementById('category-filter');
+  var projectItems = document.querySelectorAll('.project-item');
+  
+  function filterProjects() {
+    var searchTerm = searchInput.value.toLowerCase().trim();
+    var selectedCategory = categoryFilter.value.toLowerCase();
+    
+    projectItems.forEach(function(item) {
+      var title = item.getAttribute('data-title') || '';
+      var content = item.getAttribute('data-content') || '';
+      var categories = item.getAttribute('data-categories') || '';
+      var team = item.getAttribute('data-team') || '';
+      
+      var matchesSearch = !searchTerm || 
+        title.indexOf(searchTerm) !== -1 || 
+        content.indexOf(searchTerm) !== -1 ||
+        team.indexOf(searchTerm) !== -1;
+      
+      var matchesCategory = !selectedCategory || 
+        categories.indexOf(selectedCategory) !== -1;
+      
+      if (matchesSearch && matchesCategory) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+  
+  searchInput.addEventListener('input', filterProjects);
+  categoryFilter.addEventListener('change', filterProjects);
+});
+</script>

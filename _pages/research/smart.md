@@ -2,8 +2,12 @@
 layout: default
 title: Survey and Measurement using Avatar and Robotic Technology (SMART)
 image: smart.png
-order: 5
+order: 4
 years: 2016-2018
+categories:
+  - Healthcare
+  - Robotics
+  - Data Analytics
 team:
   - name: "Li Bai"
     role: "Principal Investigator"

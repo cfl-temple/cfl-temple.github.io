@@ -2,8 +2,12 @@
 layout: default
 title: Remote Obstetrics Monitoring Systems
 image: fetal.png
-order: 3
+order: 2
 years: 2015-2019
+categories:
+  - Healthcare
+  - IoT
+  - Wireless Networks
 team:
   - name: "Li Bai"
     role: "Principal Investigator"

@@ -2,8 +2,12 @@
 layout: default
 title: SEPTA Electronic Payment Project
 image: septa.png
-order: 4
+order: 3
 years: 2005-2008
+categories:
+  - Software
+  - Mobile Computing
+  - Security
 team:
   - name: "Li Bai"
     role: "Principal Investigator"
