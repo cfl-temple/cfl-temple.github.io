@@ -8,7 +8,7 @@ permalink: /team/alex-wroblewski
 grad_year: 2018
 social:
     twitter:
-    linkedin:
+    linkedin: https://www.linkedin.com/in/awr/
     google-scholar:
     github:
     website:
