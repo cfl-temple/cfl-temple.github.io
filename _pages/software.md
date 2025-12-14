@@ -14,32 +14,29 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 ## Open Source Projects
 
-### Project Name 1
-**Description:** Brief description of the software project.
+### TGDH - python
+**Description:** TGDH is a shared cryptographic key established among all members of a dynamic group using the Tree-based Group Diffie–Hellman (TGDH) protocol. It enables secure group communication by allowing members to efficiently compute a common secret while supporting dynamic membership changes (join/leave) with scalable rekeying and forward/backward secrecy.
 
 **Technologies:** Python, TensorFlow, ROS
 
-**GitHub:** [Repository Link](https://github.com/cfl-temple/)
+**GitHub:** [Repository Link](https://github.com/lbaitemple/tgdhstruct)
 
 ---
 
 ### Project Name 2
-**Description:** Brief description of the software project.
+**Description:** This MATLAB code implements a dynamic simulation of the Tennessee Eastman (TE) process, a benchmark industrial chemical process widely used for research in process control, monitoring, and fault diagnosis. The simulation models the plant’s nonlinear dynamics, operating conditions, and disturbances, enabling evaluation of control strategies, state estimation, and fault detection algorithms.
 
-**Technologies:** C++, CUDA
+**Technologies:** Matlab, Java
 
-**GitHub:** [Repository Link](https://github.com/cfl-temple/)
+**GitHub:** [Repository Link](https://github.com/lbaitemple/TED)
 
 ---
 
 ## Tools & Libraries
 
 *Add your lab's software tools here. For each tool, include:*
-- Name and description
-- Technologies used
-- Link to repository or download
-- Documentation link (if available)
-- Citation information (if applicable)
+- FPGA Programmer - https://temple.short.gy/svfloader
+- Web double emlimination bracket - http://cflwww.eng.temple.edu/DEB
 
 ---
 
