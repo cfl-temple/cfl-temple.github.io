@@ -25,9 +25,12 @@ permalink: /publications/
             {% assign conf_pubs = site.data.publications | where: "type", "paper-conference" %}
             {% assign conf_total = conf_pubs | size %}
             {% assign conf_index = 0 %}
+            
+            <!-- Recent 10 Conference Papers -->
             {% for publi in site.data.publications %}
                 {% if publi.type == "paper-conference" %}
                 {% assign conf_index = conf_index | plus: 1 %}
+                {% if conf_index <= 10 %}
                 {% assign display_num = conf_total | minus: conf_index | plus: 1 %}
                 <div class="panel-heading">
                     <a data-toggle="collapse" data-parent="#accordion-conf"
@@ -67,9 +70,67 @@ permalink: /publications/
                     </div>
                 </div>
                 {% endif %}
+                {% endif %}
             {% endfor %}
             </div>
         </div>
+        
+        <!-- Older Conference Papers (collapsed) -->
+        {% if conf_total > 10 %}
+        <div class="panel panel-default" style="margin-top: 20px;">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#older-conf-pubs" style="color: inherit;">
+                        <span class="glyphicon glyphicon-chevron-down"></span> Older Conference Publications ({{ conf_total | minus: 10 }} more)
+                    </a>
+                </h4>
+            </div>
+            <div id="older-conf-pubs" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="panel-group" id="accordion-conf-old">
+                        <div class="panel panel-default">
+                        {% assign conf_index = 0 %}
+                        {% for publi in site.data.publications %}
+                            {% if publi.type == "paper-conference" %}
+                            {% assign conf_index = conf_index | plus: 1 %}
+                            {% if conf_index > 10 %}
+                            {% assign display_num = conf_total | minus: conf_index | plus: 1 %}
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-conf-old"
+                                   href="#collapse-conf-old-{{conf_index}}"
+                                   style="color: inherit;">
+                                <strong>[{{display_num}}]</strong>
+                                {% assign authors = "" | split:"/" %}
+                                {% for author in publi.author %}
+                                    {% assign authors = authors | push: author.family %}
+                                {% endfor %}
+                                {{ authors | array_to_sentence_string }},
+                                "{{ publi.title }}",
+                                <b>{{ publi.container-title }}</b>
+                                ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                                {% if publi.DOI %}
+                                    <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+                                {% endif %}
+                                </a>
+                            </div>
+                            <div id="collapse-conf-old-{{conf_index}}" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>{{ publi.abstract }}</p>
+                                    {% if publi.DOI %}
+                                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
+                                       role="button" target="blank">Link</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
     </div>
 
     <!-- Journal Publications -->
