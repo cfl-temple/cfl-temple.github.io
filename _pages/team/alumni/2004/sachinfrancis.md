@@ -5,17 +5,12 @@ title: Sachin Francis
 image: sachin.jpg
 role: Alumni
 permalink: /team/sachin
-grad_year: 2004
+grad_year: 2003
 social:
-    twitter:
     linkedin: https://www.linkedin.com/in/sachin-francis-msee-mba/
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
 education:
- - MSEE, 2004
+ - MEng ECE at Temple University, 2001-2003
+ - MBA at University of Iowa, 2016-2019
 ---
 
-MSEE, 2004. Associate Director @ Collins Aerospace 
+Sachin Francis is a Associate Director at Collins Aerospace
