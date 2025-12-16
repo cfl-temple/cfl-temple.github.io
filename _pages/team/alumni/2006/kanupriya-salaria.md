@@ -7,15 +7,12 @@ role: Alumni
 permalink: /team/kanupriya-salaria
 grad_year: 2006
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
+    linkedin: https://www.linkedin.com/in/kanupriya-salaria-208bba21/
 education:
- - MSEE, 2006
+ - BEE at Uttar Pradesh Jobs, 1997-2001
+ - MSEE at Temple University, 2001-2006
+ - MBA at University of Iowa, 2012-2014
+ - MSE at Iowa State University, 2012-2014
 ---
 
-MSEE, 2006. Now at Rockwell Collins.
+Kanupriya Salaria is Senior Director, Business Class Seating, Interiors at Collins Aerospace
