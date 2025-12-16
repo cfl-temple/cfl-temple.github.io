@@ -28,7 +28,7 @@ permalink: /news.html
                     {% endfor %}
                 </p>
                 {% endif %}
-                {{ article.content }}
+                {{ article.content | markdownify }}
             </div>
         </li>
     {% endfor %}
