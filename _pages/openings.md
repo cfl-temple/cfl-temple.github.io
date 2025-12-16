@@ -8,19 +8,13 @@ permalink: /openings/
 
 # Open Positions
 
-We are always looking for motivated students and researchers to join our team.
 
 ## PhD Students
 
-We have openings for PhD students interested in [research areas]. Ideal candidates should have:
 
-- Strong background in [relevant field]
-- Programming experience in [languages]
-- Interest in [specific topics]
 
 ## Master's Students
 
-We welcome Master's students for thesis projects in [areas].
 
 ## Undergraduate Students
 
@@ -28,7 +22,6 @@ Undergraduate research opportunities are available for students interested in ga
 
 ## Postdoctoral Researchers
 
-We occasionally have postdoctoral positions available. Please check back for updates.
 
 ## How to Apply
 
