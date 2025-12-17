@@ -7,8 +7,9 @@ permalink: /news.html
 ---
 <h1>{{page.title}}</h1>
 
+<!-- Recent 3 News Items -->
 <ul class="list-unstyled">
-    {% for article in site.data.news %}
+    {% for article in site.data.news limit:3 %}
         <li class="media" style="margin-bottom: 30px;">
             {% if article.image %}
             <div class="media-left" style="padding-right: 15px;">
@@ -33,6 +34,50 @@ permalink: /news.html
         </li>
     {% endfor %}
 </ul>
+
+<!-- Older News (collapsed) -->
+{% assign total_news = site.data.news | size %}
+{% if total_news > 3 %}
+<div class="panel panel-default" style="margin-top: 20px;">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" href="#older-news" style="color: inherit;">
+                <span class="glyphicon glyphicon-chevron-down"></span> Older News ({{ total_news | minus: 3 }} more)
+            </a>
+        </h4>
+    </div>
+    <div id="older-news" class="panel-collapse collapse">
+        <div class="panel-body">
+            <ul class="list-unstyled">
+                {% for article in site.data.news offset:3 %}
+                    <li class="media" style="margin-bottom: 30px;">
+                        {% if article.image %}
+                        <div class="media-left" style="padding-right: 15px;">
+                            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}" 
+                                 alt="{{ article.title }}" 
+                                 class="media-object news-image" 
+                                 style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                        </div>
+                        {% endif %}
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
+                            <p><small>{{ article.date }}</small></p>
+                            {% if article.tags %}
+                            <p style="margin-bottom: 10px;">
+                                {% for tag in article.tags %}
+                                <span class="label label-primary" style="margin-right: 5px;">{{ tag }}</span>
+                                {% endfor %}
+                            </p>
+                            {% endif %}
+                            {{ article.content | markdownify }}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}
 
 <!-- Lightbox Modal -->
 <div id="imageModal" class="modal fade" tabindex="-1" role="dialog" style="display: none;">
