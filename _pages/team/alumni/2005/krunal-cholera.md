@@ -11,7 +11,7 @@ social:
     website: http://www.docrashmin.com/home.htm
 education:
  - BE Electronics at University of Mumbai
- - MSEE at Temple University, 2001
+ - MSEE at Temple University, 2001-2005
 ---
 
 Krunal Cholera is Technical Manager eRA at Temple University
