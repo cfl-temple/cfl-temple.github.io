@@ -7,15 +7,11 @@ role: Alumni
 permalink: /team/shweta-moonat
 grad_year: 2006
 social:
-    twitter:
-    linkedin:
-    google-scholar:
-    github:
-    website:
-    orcid:
-    research-gate:
+    linkedin: https://www.linkedin.com/in/shweta-moonat-846a441/
+    website: https://belle-lettrist.blogspot.com/
 education:
- - MSEE, 2006
+ - BSEE at Institute of Engineering & Technology DAVV, Indore, 2000-2004
+ - MSECE at Temple Unviversity, 2004-2006
 ---
 
-MSEE, 2006. Program Manager at HealthcareSource.
+Shweta Moonat is Director of Technical Program Management Office Health and Life Sciences at Microsoft
