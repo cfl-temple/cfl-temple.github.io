@@ -4,7 +4,7 @@ category: past
 title: Krunal Cholera
 image: nobody.png
 role: Alumni
-permalink: /team/alumni/2005/krunal-cholera
+permalink: /team/krunal-cholera
 grad_year: 2005
 social:
     linkedin: https://www.linkedin.com/in/krunal-cholera-6198621/
