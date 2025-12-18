@@ -17,7 +17,7 @@ social:
 education:
  - BS Automation at Huazhong University of Science and Technology, 2003-2007
  - MSEE at Temple University, 2007-2009
- - Ph.D at Drexel University, 2009-2013
+ - PhD ECE at Drexel University, 2009-2013
 ---
 
 Feiyu Xiong is the Chief Executive Officer and Founder of MemTensor (Shanghai) Technology Co., Ltd
