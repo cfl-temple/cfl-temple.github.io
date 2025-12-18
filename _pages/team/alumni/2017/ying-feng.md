@@ -18,8 +18,7 @@ education:
  - BS in Physics at Beijing Jiaotong University, 2001-2005
  - Visiting Student ECE at Massachusetts Institute of Technology, 2007-2008
  - PhD Materials Engineering at Beijing Jiaotong University, 2005-2010
- - BS, Optical Information Science and Technology, Beijing Jiaotong University
+
 ---
 
-Ying Feng is a Research and Development Test Engineer at Intel
-Ying Feng was a master student. She received her bachelor of science degree in Optical Information Science and Technology from the Beijing Jiaotong University. After working for several years, she came back to graduate school seeking academic record enhancement and professional development.
+Ying Feng was a master student, and is currently a Research and Development Test Engineer at Intel
