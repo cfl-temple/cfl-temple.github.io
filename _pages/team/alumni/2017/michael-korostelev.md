@@ -5,7 +5,7 @@ title: Michael Korostelev
 image: korostelev.png
 role: Alumni
 permalink: /team/michael-korostelev
-grad_year: 2017
+grad_year: 2015
 social:
     twitter: https://x.com/mike_korostelev
     linkedin: https://www.linkedin.com/in/michaelkorostelev/
