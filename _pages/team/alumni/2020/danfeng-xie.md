@@ -5,7 +5,7 @@ title: Danfeng Xie
 image: danfeng.jpg
 role: Alumni
 permalink: /team/danfeng-xie
-grad_year: 2019
+grad_year: 2020
 social:
     twitter:
     linkedin: https://www.linkedin.com/in/danfengxie/
