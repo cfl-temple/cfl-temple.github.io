@@ -9,10 +9,10 @@ grad_year: 2019
 social:
     twitter:
     linkedin: https://www.linkedin.com/in/danfengxie/
-    google-scholar:
+    google-scholar: https://scholar.google.com/citations?hl=en&user=SMQLIu8AAAAJ
     github:
     website:
-    orcid:
+    orcid: https://orcid.org/0000-0003-3475-206X
     research-gate:
 education:
 - BSEE at Jiangnan University, 2009-2013
