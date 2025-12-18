@@ -2,7 +2,7 @@
 layout: member
 category: past
 title: Zhao Cheng
-image: jamesren.png
+image: nobody.png
 role: Alumni
 permalink: /team/zhaocheng
 grad_year: 2009
