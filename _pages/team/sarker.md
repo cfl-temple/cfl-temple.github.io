@@ -6,15 +6,15 @@ image: sarker.png
 role: Master Student
 permalink: /team/sarker
 social:
-    twitter: https://twitter.com/
+    twitter: 
     linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
+    google-scholar: 
+    github: https://github.com/SarkerMohammed
     website:
 education:
  - Education: 
-    -- BSCS at Temple University, 2025
-    -- MSEE at Temple University, 2027
+    -- BSCS & Physics at Temple University, 2021-2025
+    -- MSEE at Temple University, 2025-2027
 ---
 
-Sarker Mohammad is a MS student in Electrical and Computer Engineering at Temple University. 
+Sarker Mohammad is a Master's student in Electrical and Computer Engineering at Temple University. 

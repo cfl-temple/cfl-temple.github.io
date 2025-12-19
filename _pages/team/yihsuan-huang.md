@@ -8,13 +8,16 @@ permalink: /team/kelly-huang
 grad_year: 2026
 social:
     twitter:
-    linkedin:
+    linkedin: https://www.linkedin.com/in/yi-hsuan-huang-9b0327300/
     google-scholar:
-    github:
+    github: https://github.com/ke14056
     website:
     orcid:
     research-gate:
 education:
+  - BSEE at Chung Yuan Christian University, 2021-2024
+  - MEng EE at Temple University, 2024-2026
+
 thesis:
   - title: ""
     release: ""
