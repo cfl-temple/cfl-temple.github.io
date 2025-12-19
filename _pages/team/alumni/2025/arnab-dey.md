@@ -15,11 +15,14 @@ social:
     orcid:
     research-gate:
 education:
-  - MSEE, Temple University, 2025
+  - B.Tech E&I at West Bengal University of Technology, 2001-2005
+  - EPGDIB at Indian Institute of Foreign Trade, 2009-2011
+  - PGP in AI & ML at The University of Texas at Austin, 2023-2024
+  - MSEE at Temple University, 2020-2025
 thesis:
   - title: "Web-based Interactive Dashboard for Monitoring and Controlling Simulated Micro-Grids using Revidyne’s functional devices"
     release: "2025/ArnabDey_MSEE_Project_Revidyne_Bokeh.pdf"
     year: 2025
 ---
 
-Mr. Arnab Dey completed his MSEE at Temple University.
+Mr. Arnab Dey is a Senior Software Engineer at Guidewire Software.
