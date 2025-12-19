@@ -7,15 +7,15 @@ image: richardlin.jpg
 role: Undergraduate Student
 permalink: /team/richard-lin
 social:
-    twitter: https://twitter.com/
+    twitter: 
     linkedin: https://www.linkedin.com/in/richardlin05/
-    google-scholar: https://scholar.google.fr/
+    google-scholar: 
     github: https://github.com/RichardLinEngineer
     website: https://richardlinengineer.github.io/Richard-Lin/index.html
-    orcid: https://orcid.org/0000-0002-6036-5947
-    research-gate: https://www.researchgate.net/
+    orcid: 
+    research-gate: 
 education:
   - BSECE at Temple University, 2024-2028
 ---
 
-Richard Lin is a undergraduate student in Electrical and Computer Engineering at Temple University. 
+Richard Lin is an undergraduate student in Electrical and Computer Engineering at Temple University. He is passionate about robotics, artificial intelligence, and coding, and works as an undergraduate research assistant in the Computer Fusion Lab, where he develops the movement systems for a humanoid robot designed to support individuals with Parkinson’s disease. Richard also manages the lab’s website, serves as the system administrator, and is an E-board member of Temple’s IEEE student organization, where he develops leadership skills while guiding technical initiatives and supporting his peers.
