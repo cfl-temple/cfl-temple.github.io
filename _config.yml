@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   we build integration frameworks that unite AI reasoning, autonomous 
   robotics, and edge–cloud computing—enabling privacy-preserving, 
   reliable, and collaborative intelligence in complex, real-world environments.
-baseurl: "/portfolio"
+baseurl: "/"
 url: "https://cfl-temple.github.io"
 
 # GitHub releases URL for thesis/project downloads
