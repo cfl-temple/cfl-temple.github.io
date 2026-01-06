@@ -8,7 +8,6 @@ permalink: /team/krunal-cholera
 grad_year: 2005
 social:
     twitter: https://x.com/TempleResearch
-    facebook: https://www.facebook.com/pages/Temple-University-Research/67194923893
     linkedin: https://www.linkedin.com/in/krunal-cholera-6198621/
     google-scholar:
     github: 
