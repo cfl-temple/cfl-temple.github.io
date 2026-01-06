@@ -7,12 +7,12 @@ role: Alumni
 permalink: /team/krunal-cholera
 grad_year: 2005
 social:
-    twitter: https://x.com/TempleResearch
+    x: https://x.com/TempleResearch
     linkedin: https://www.linkedin.com/in/krunal-cholera-6198621/
     google-scholar:
     github: 
     website: http://www.docrashmin.com/home.htm
-    website: https://research.temple.edu/
+    temple: https://research.temple.edu/
     orcid:
     research-gate:
 education:
