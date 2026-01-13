@@ -17,7 +17,7 @@ baseurl: "/"
 url: "https://cfl-temple.github.io"
 
 # GitHub releases URL for thesis/project downloads
-# releases_url: "https://github.com/cfl-temple/cfl-temple.github.io/releases/download"
+releases_url: "https://github.com/cfl-temple/cfl-temple.github.io/releases/download"
 
 
 include:
