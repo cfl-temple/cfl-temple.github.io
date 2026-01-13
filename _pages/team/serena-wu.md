@@ -19,7 +19,7 @@ education:
   - MEng EE at Temple University, 2024-2026
 thesis:
   - title: "SYNC-Smart: Your Next Companion For Parkinson’s Disease"
-    release: ""
+    release: "2025/SYNC_smart.pdf"
     year: 2026
 ---
 
