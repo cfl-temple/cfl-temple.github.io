@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: past
 title: Yingting Wu
 image: serena.png
 role: Master Student

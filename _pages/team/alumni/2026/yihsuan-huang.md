@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: past
 title: YiHsuan Huang
 image: kelly.png
 role: Master Student
