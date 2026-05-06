@@ -19,8 +19,8 @@ education:
   - MEng EE at Temple University, 2024-2026
 
 thesis:
-  - title: ""
-    release: ""
+  - title: "Revidyne Energy Device Manager- An Interactive Platform for Energy Device Control, Allocation, and Learning"
+    release: "2026/yihsuan_huang.pdf"
     year: 2026
 ---
 
