@@ -18,8 +18,8 @@ education:
   - BSEE at Fu Jen Catholic University, 2020-2024
   - MEng EE at Temple University, 2024-2026
 thesis:
-  - title: "SYNC-Smart: Your Next Companion For Parkinson’s Disease"
-    release: "2025/SYNC_smart.pdf"
+  - title: "A Multi-Agent Counseling Chatbot for Active Thinking"
+    release: "2026/yingting_wu.pdf"
     year: 2026
 ---
 
