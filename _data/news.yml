@@ -1,6 +1,6 @@
 - date: 5/1/26
   title: "Sarker Mohammad Successfully defended his master project"
-  image: 
+  images:
   tags:
     - 
     - MastersDefense
@@ -8,7 +8,7 @@
 
 - date: 4/29/26
   title: "Yingting (Serena) Wu Successfully defended her master project"
-  image: 
+  images:
   tags:
     - MastersDefense
     - AI
@@ -18,7 +18,7 @@
 
 - date: 4/29/26
   title: "Yi-Hsuan (Kelly) Huang Successfully defended her master project"
-  image: 
+  images:
   tags:
     - Masters Defense
     - Renewable Energy
@@ -34,7 +34,8 @@
 
 - date: 2/1/26
   title: "Dr. Joe Amato's paper accepted at Texas Power and Energy Conference (TPEC) 2026."
-  image: "news/tpec.jpg"
+  images:
+    - "news/tpec.jpg"
   tags:
     - robotics
     - AI
@@ -43,7 +44,8 @@
 
 - date: 12/1/25
   title: "Chris Pullen defended his master project"
-  image: "news/chris_2025.jpg"
+  images:
+    - "news/chris_2025.jpg"
   tags:
     - robotics
     - AI
@@ -52,7 +54,9 @@
 
 - date: 11/20/25
   title: "2025 Butz Scholarship Winner: Kyle McGinley"
-  image: "news/kyle_2025.jpg"
+  images:
+    - "news/kyle_2025.jpg"
+    - "news/amia.jpg"
   tags:
     - scholarship
     - AI
@@ -61,7 +65,8 @@
 
 - date: 11/15/25
   title: "AMIA KDDM Collaborative Workshop"
-  image: "news/amia.jpg"
+  images:
+    - "news/amia.jpg"
   tags:
     - robotics
     - AI
@@ -73,7 +78,8 @@
 
 - date:  9/3/25
   title: "Dr. Joseph Amato defended his PhD thesis."
-  image: "news/joe_2025.jpg"
+  images:
+    - "news/joe_2025.jpg"
   tags:
     - shipboard applications
     - power distribution
@@ -83,7 +89,8 @@
 
 - date: 08/09/17
   title: "Summer students"
-  image: "news/summer2017.jpg"
+  images:
+    - "news/summer2017.jpg"
   tags:
     - robotics
     - SMART
