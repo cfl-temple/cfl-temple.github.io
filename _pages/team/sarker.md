@@ -13,7 +13,7 @@ social:
     website:
 education:
     - BSCS & Physics at Temple University, 2021-2025
-    - MSEE at Temple University, 2025-2027
+    - MSEE at Temple University, 2025-2026
     - PhD ME at Temple University, 2026-2029
 thesis:
   - title: "FHE Flower Project"
