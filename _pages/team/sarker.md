@@ -3,7 +3,7 @@ layout: member
 category: student
 title: Sarker Mohammad
 image: sarker.png
-role: Master Student
+role: PhD Student
 permalink: /team/sarker
 social:
     twitter: 
