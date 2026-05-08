@@ -8,7 +8,7 @@ role: Undergraduate Student
 permalink: /team/Kyle McGinley
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/kyle-mcginley112/
     google-scholar: 
     github: https://github.com/kylem1126
     website:

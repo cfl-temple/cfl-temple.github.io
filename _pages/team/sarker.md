@@ -1,13 +1,13 @@
 ---
 layout: member
 category: student
-title: Sarker Mohammad
+title: Sarker Mohammed
 image: sarker.png
 role: PhD Student
 permalink: /team/sarker
 social:
     twitter: 
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/sarkermohammed/
     google-scholar: 
     github: https://github.com/SarkerMohammed
     website:
