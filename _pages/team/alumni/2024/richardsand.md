@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Richard Sand
 image: richardsand.jpg
-role: Alumni
+role: Master Student
 permalink: /team/Richard-Sand
 grad_year: 2024
 social:

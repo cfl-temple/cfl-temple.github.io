@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Frank Wu
 image: frankwu.png
-role: Alumni
+role: Master Student
 permalink: /team/frank-wu
 grad_year: 2023
 social:

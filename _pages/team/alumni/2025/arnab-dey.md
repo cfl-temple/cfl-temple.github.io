@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Arnab Dey
 image: arnab.jpg
-role: Alumni
+role: Master Student
 permalink: /team/arnab-dey
 grad_year: 2025
 social:

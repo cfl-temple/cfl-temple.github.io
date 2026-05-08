@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Huaichih Chang
 image: brianchang.png
-role: Alumni
+role: Master Student
 permalink: /team/Huaichih-Chang
 grad_year: 2024
 social:

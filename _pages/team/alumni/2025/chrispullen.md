@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Chris Pullen
 image: pullen.png
-role: Alumni
+role: Master Student
 permalink: /team/chris-pullen
 grad_year: 2025
 social:

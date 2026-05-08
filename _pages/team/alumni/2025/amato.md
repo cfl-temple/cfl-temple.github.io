@@ -3,7 +3,7 @@ layout: member
 category: past
 title: Joseph Amato
 image: amato.png
-role: Alumni
+role: PhD Student
 permalink: /team/joe-amato
 grad_year: 2025
 social:
