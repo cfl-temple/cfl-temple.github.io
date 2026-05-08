@@ -1,11 +1,20 @@
 - date: 5/1/26
   title: "Sarker Mohammad Successfully Defended His Master's Project"
   images:
-    - 
+    - "news/sarker_2026_master_1.jpg"
+    - "news/sarker_2026_master_2.jpg"
   tags:
-    - 
     - Master's Defense
+    - AI
+    - Cybersecurity
+    - Fully Homomorphic Encryption
   content: >
+    Sarker Mohammad successfully defended his master project, 
+    "FHE Flower Project: Integrating Fully Homomorphic Encryption into the Flower Federated Learning Framework",
+    which focuses on developing on enchancing privacy and security in federated learning systems 
+    through advanced encryption techniques. He demonstrated strong innovation and dedication throughout the work. 
+    Congratulations to Sarker Mohammad on this important academic milestone. 
+    (Pictures of Sarker Mohammad, Dr. Li Bai and Dr. Chiu Tan)
 
 - date: 4/29/26
   title: "Ying-Ting (Serena) Wu Successfully Defended Her Master's Project"
@@ -15,6 +24,7 @@
   tags:
     - Master's Defense
     - AI
+    - Chatbot
     - Multi-Agents Systems
     - Mental Health Tech
   content: >
