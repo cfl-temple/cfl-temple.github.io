@@ -1,20 +1,30 @@
 - date: 5/1/26
   title: "Sarker Mohammad Successfully defended his master project"
   images:
+    - 
   tags:
     - 
-    - MastersDefense
+    - Master's Defense
   content: >
 
 - date: 4/29/26
-  title: "Yingting (Serena) Wu Successfully defended her master project"
-  images:
+  title: "Ying-Ting (Serena) Wu Successfully defended her master project"
+  images: 
+    - "news/yingting_2026_master_1.jpg"
+    - "news/yingting_2026_master_2.jpg"
   tags:
-    - MastersDefense
+    - Master's Defense
     - AI
-    - MultiAgentsSystem
-    - MentalHealthTech
+    - Multi-Agents Systems
+    - Mental Health Tech
   content: >
+    Ying-Ting (Serena) Wu successfully defended her master project,
+    "A Multi-Agent Counseling Chatbot System for Active Thinking",
+    which focuses on developing an AI driven system that use multi-agents chatbot 
+    to support interactive and reflective thinking in counseling-style conversations. 
+    She demonstrated strong innovation and dedication throughout the work. 
+    Congratulations to Ying-Ting Wu on this important academic milestone.
+    (Pictures of Ying-Ting Wu, Dr. Li Bai and Dr. Xu Jiang)
 
 - date: 4/29/26
   title: "Yi Hsuan (Kelly) Huang Successfully defended her master project"
@@ -23,7 +33,7 @@
     - "news/yihsuan_2026_master_2.jpg"
     - "news/yihsuan_2026_master_3.jpg"
   tags:
-    - Masters Defense
+    - Master's Defense
     - Renewable Energy
     - Energy Management
   content: > 
