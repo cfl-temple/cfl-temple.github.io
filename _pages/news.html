@@ -18,7 +18,7 @@ permalink: /news.html
                 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.images[0] }}"
                      alt="{{ article.title }}"
                      class="media-object news-image"
-                     style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                     style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
                 {% else %}
                 <div id="{{ carousel_id }}" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 200px;">
                     <ol class="carousel-indicators" style="bottom: -20px;">
@@ -32,7 +32,7 @@ permalink: /news.html
                             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ img }}"
                                  alt="{{ article.title }}"
                                  class="news-image"
-                                 style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                                 style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
                         </div>
                         {% endfor %}
                     </div>
@@ -52,7 +52,7 @@ permalink: /news.html
                 <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}"
                      alt="{{ article.title }}"
                      class="media-object news-image"
-                     style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                     style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
             </div>
             {% endif %}
             <div class="media-body">
@@ -94,7 +94,7 @@ permalink: /news.html
                             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.images[0] }}"
                                  alt="{{ article.title }}"
                                  class="media-object news-image"
-                                 style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                                 style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
                             {% else %}
                             <div id="{{ carousel_id }}" class="carousel slide" data-ride="carousel" data-interval="false" style="width: 200px;">
                                 <ol class="carousel-indicators" style="bottom: -20px;">
@@ -108,7 +108,7 @@ permalink: /news.html
                                         <img src="{{ site.url }}{{ site.baseurl }}/images/{{ img }}"
                                              alt="{{ article.title }}"
                                              class="news-image"
-                                             style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                                             style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
                                     </div>
                                     {% endfor %}
                                 </div>
@@ -128,7 +128,7 @@ permalink: /news.html
                             <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}"
                                  alt="{{ article.title }}"
                                  class="media-object news-image"
-                                 style="max-width: 200px; border-radius: 5px; cursor: pointer;">
+                                 style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
                         </div>
                         {% endif %}
                         <div class="media-body">
