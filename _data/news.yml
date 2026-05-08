@@ -1,3 +1,27 @@
+- date: 5/7/26
+  title: "Celebrating Our 2026 Graduates"
+  images: 
+    - "news/group_lab_graduation_2026.jpg"
+    - "news/group_graduation_2026.jpg"
+    - "news/joseph_graduation_2026.jpg"
+    - "news/anway_sarker_graduation_2026.jpg"
+    - "news/anway_graduation_2026.jpg"
+    - "news/sarker_graduation_2026.jpg"
+    - "news/serena_graduation_2026.jpg"
+    - "news/kelly_graduation_2026.jpg"
+  tags:
+    - Class of 2026
+    - Graduation
+    - Student Success
+    - Engineering
+    - Future Leaders
+  content: >
+    Congratulations to our graduating students on reaching this important academic milestone. 
+    Through dedication, hard work, and perseverance, they have successfully completed their academic 
+    journey and are prepared for the next chapter of their careers and future endeavors. 
+    We celebrate their achievements and wish them continued success ahead.
+
+
 - date: 5/1/26
   title: "Sarker Mohammad Successfully Defended His Master's Project"
   images:
