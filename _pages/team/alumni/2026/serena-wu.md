@@ -1,7 +1,7 @@
 ---
 layout: member
 category: past
-title: Yingting Wu
+title: Ying-Ting Wu
 image: serena.png
 role: Master Student
 permalink: /team/serena-wu
