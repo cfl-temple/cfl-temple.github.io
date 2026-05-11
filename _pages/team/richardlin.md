@@ -10,8 +10,8 @@ social:
     twitter: 
     linkedin: https://www.linkedin.com/in/richardlin05/
     google-scholar: 
-    github: https://github.com/RichardLinEngineer
-    website: https://richardlinengineer.github.io/
+    github: https://github.com/richardlin05
+    website: https://richardlin05.github.io/
     orcid: 
     research-gate: 
 education:
