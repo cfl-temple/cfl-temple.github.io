@@ -9,7 +9,7 @@ social:
     linkedin: https://www.linkedin.com/in/anway-bose/
     google-scholar: https://scholar.google.com/citations?user=S09uifcAAAAJ&hl=en
     github: https://github.com/anwaybose
-    website:
+    website: https://anwaybose.github.io/
     orcid: https://orcid.org/0000-0002-7145-6203
     research-gate: https://www.researchgate.net/profile/Anway-Bose?ev=hdr_xprf
 education:
