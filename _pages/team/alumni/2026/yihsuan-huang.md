@@ -15,7 +15,7 @@ social:
     orcid:
     research-gate:
 education:
-  - BSEE at Chung Yuan Christian University, 2021-2025
+  - BS Physics at Chung Yuan Christian University, 2021-2025
   - MEng EE at Temple University, 2024-2026
 
 thesis:
