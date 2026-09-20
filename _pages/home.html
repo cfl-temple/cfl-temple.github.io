@@ -10,7 +10,7 @@ permalink: /
 <div class="row">
   <div class="col-sm-12">
     {% assign slider_images = site.static_files | where_exp: "file", "file.path contains '/images/slider/'" %}
-    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+    <div id="carousel" class="carousel slide home-carousel" data-ride="carousel" data-interval="5000" data-pause="hover">
       <!-- Menu -->
       <ol class="carousel-indicators">
         {% for image in slider_images %}
@@ -21,8 +21,18 @@ permalink: /
       <!-- Items -->
       <div class="carousel-inner">
         {% for image in slider_images %}
+        {% assign image_filename = image.path | split: '/' | last %}
+        {% assign caption = site.data.slider[image_filename] %}
+        {% if caption %}
+          {% assign alt_text = caption %}
+        {% else %}
+          {% assign alt_text = "Slide " | append: forloop.index %}
+        {% endif %}
         <div class="item {% if forloop.first %}active{% endif %}">
-          <img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ alt_text }}" />
+          {% if caption %}
+          <div class="carousel-caption home-carousel-caption">{{ caption }}</div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
@@ -38,74 +48,102 @@ permalink: /
   </div>
 </div>
 
-<div class="jumbotron" style="background-color: #f8f9fa; padding: 40px 30px; margin-bottom: 30px; margin-top: 30px;">
-  <h1 style="margin-top: 0;">Welcome to CFL</h1>
-  <p class="lead">We are a research group at Temple University focused on sensor fusion in distributed systems. We aim to address a fundamental challenge: 
+<div class="home-hero">
+  <h1 class="home-hero-title">Welcome to <span class="home-hero-accent">CFL</span></h1>
+  <p class="home-hero-lead">We are a research group at Temple University focused on sensor fusion in distributed systems. We aim to address a fundamental challenge:
     solving diverse data fusion problems in an era where traditional sensors are gradually
-     being replaced by intelligent computers and robotics. </p>
-  <p>Our mission is to advance the state of the art in sensor fusion through innovative research and collaboration.</p>
+    being replaced by intelligent computers and robotics.</p>
+  <p class="home-hero-text">Our mission is to advance the state of the art in sensor fusion through innovative research and collaboration.</p>
   <p>
-    <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}/research" role="button">Learn more about our research</a>
+    <a class="btn btn-primary btn-lg home-hero-cta" href="{{ site.baseurl }}/research" role="button">Learn more about our research</a>
   </p>
 </div>
 
-<div class="row">
+<div class="row home-lower">
   <div class="col-sm-8">
-    <h2>About the Lab</h2>
-    <p>Welcome to CFL. We are a research group at Temple University focused on sensor fusion.</p>
-    
-    <p>Our research interests include:</p>
-    <ul>
-      <li>Distributed security</li>
-      <li>Homomorphic encryption</li>
-      <li>Robotics and autonomous platforms for real-world sensing and actuation</li>
-      <li>Edge and cloud computing architectures for scalable deployment</li>
-    </ul>
-    
-    <p>We collaborate with industry partners and academic institutions worldwide to advance the state of the art in sensor fusion.</p>
-    
-    <h3>Research Focus</h3>
-    <p>Our work addresses fundamental challenges in:</p>
-    <ul>
-      <li>System interoperability between robotics, AI models, and legacy infrastructure</li>
-      <li>Secure communication protocols for multi-agent collaboration</li>
-      <li>Federated learning and multi-party computation for collaborative intelligence</li>
-    </ul>
-    
-    <p>We develop innovative solutions that combine theory and practice to solve real-world problems.</p>
-  </div>
-  
-  <div class="col-sm-4">
-    <h2>News & Updates</h2>
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <h4>Latest News</h4>
-        <ul class="list-unstyled">
-          {% for news in site.data.news limit:5 %}
-          <li style="margin-bottom: 15px;">
-            <strong>{{ news.date }}</strong><br>
-            {{ news.title }}
-          </li>
-          {% endfor %}
-        </ul>
-        <a href="{{ site.baseurl }}/news" class="btn btn-sm btn-default">View all news</a>
+    <div class="home-section-card">
+      <h2 class="section-title">About the Lab</h2>
+      <p>We are a research group at Temple University focused on sensor fusion.</p>
+
+      <p>Our research interests include:</p>
+      <div class="home-interest-grid">
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Security">
+          <i class="fas fa-shield-halved"></i>
+          <span>Distributed security</span>
+        </a>
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Cryptography">
+          <i class="fas fa-lock"></i>
+          <span>Homomorphic encryption</span>
+        </a>
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Robotics">
+          <i class="fas fa-robot"></i>
+          <span>Robotics and autonomous platforms for real-world sensing and actuation</span>
+        </a>
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Distributed%20Systems">
+          <i class="fas fa-cloud"></i>
+          <span>Edge and cloud computing architectures for scalable deployment</span>
+        </a>
       </div>
+
+      <p>We collaborate with industry partners and academic institutions worldwide to advance the state of the art in sensor fusion.</p>
+
+      <h3 class="section-subtitle">Research Focus</h3>
+      <p>Our work addresses fundamental challenges in:</p>
+      <div class="home-interest-grid">
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Distributed%20Systems">
+          <i class="fas fa-network-wired"></i>
+          <span>System interoperability between robotics, AI models, and legacy infrastructure</span>
+        </a>
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=Security">
+          <i class="fas fa-comments"></i>
+          <span>Secure communication protocols for multi-agent collaboration</span>
+        </a>
+        <a class="home-interest-box" href="{{ site.baseurl }}/research?category=AI/ML">
+          <i class="fas fa-brain"></i>
+          <span>Federated learning and multi-party computation for collaborative intelligence</span>
+        </a>
+      </div>
+
+      <p>We develop innovative solutions that combine theory and practice to solve real-world problems.</p>
     </div>
-    
-    <h3>Quick Links</h3>
-    <div class="list-group">
-      <a href="{{ site.baseurl }}/team" class="list-group-item">
-        <span class="glyphicon glyphicon-user"></span> Meet Our Team
-      </a>
-      <a href="{{ site.baseurl }}/publications" class="list-group-item">
-        <span class="glyphicon glyphicon-book"></span> Publications
-      </a>
-      <a href="{{ site.baseurl }}/software" class="list-group-item">
-        <span class="glyphicon glyphicon-download-alt"></span> Software & Tools
-      </a>
-      <a href="{{ site.baseurl }}/openings" class="list-group-item">
-        <span class="glyphicon glyphicon-briefcase"></span> Join Us
-      </a>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="home-section-card home-news-card">
+      <h2 class="section-title">News &amp; Updates</h2>
+      <ul class="home-news-list">
+        {% for news in site.data.news limit:5 %}
+        {% assign thumb = news.images | first %}
+        <li class="home-news-item">
+          {% if thumb %}
+          <img class="home-news-thumb" src="{{ site.baseurl }}/images/{{ thumb }}" alt="">
+          {% endif %}
+          <div class="home-news-text">
+            <span class="home-news-date">{{ news.date }}</span>
+            <a class="home-news-title" href="{{ site.baseurl }}/news#{{ news.title | slugify }}">{{ news.title }}</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      <a href="{{ site.baseurl }}/news" class="btn btn-sm home-hero-cta">View all news</a>
+    </div>
+
+    <div class="home-section-card home-quicklinks-card">
+      <h3 class="section-subtitle">Quick Links</h3>
+      <div class="home-quicklinks">
+        <a href="{{ site.baseurl }}/team" class="home-quicklink-item">
+          <i class="fas fa-users"></i> Meet Our Team
+        </a>
+        <a href="{{ site.baseurl }}/publications" class="home-quicklink-item">
+          <i class="fas fa-book"></i> Publications
+        </a>
+        <a href="{{ site.baseurl }}/software" class="home-quicklink-item">
+          <i class="fas fa-download"></i> Software &amp; Tools
+        </a>
+        <a href="{{ site.baseurl }}/openings" class="home-quicklink-item">
+          <i class="fas fa-briefcase"></i> Join Us
+        </a>
+      </div>
     </div>
   </div>
 </div>

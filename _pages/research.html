@@ -146,7 +146,12 @@ document.addEventListener('DOMContentLoaded', function() {
   var searchInput = document.getElementById('project-search');
   var categoryFilter = document.getElementById('category-filter');
   var projectItems = document.querySelectorAll('.project-item');
-  
+
+  var categoryParam = new URLSearchParams(window.location.search).get('category');
+  if (categoryParam) {
+    categoryFilter.value = categoryParam;
+  }
+
   function filterProjects() {
     var searchTerm = searchInput.value.toLowerCase().trim();
     var selectedCategory = categoryFilter.value.toLowerCase();
@@ -175,5 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   searchInput.addEventListener('input', filterProjects);
   categoryFilter.addEventListener('change', filterProjects);
+
+  filterProjects();
 });
 </script>

@@ -8,16 +8,25 @@
 		<span class="icon-bar"></span>
 	  </button>
 
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="navbar-brand brand-logos" href="{{ site.baseurl }}/">
+      {% assign temple_logo = site.static_files | where_exp: "file", "file.path contains 'temple'" | first %}
+      {% if temple_logo %}
+      <img src="{{ site.baseurl }}{{ temple_logo.path }}" alt="Temple University" class="brand-logo brand-logo-temple">
+      {% else %}
+      <span class="brand-logo brand-logo-temple brand-logo-placeholder" title="Drop a file named like 'temple-logo.png' into images/logo/ to replace this">TU</span>
+      {% endif %}
+      <img src="{{ site.baseurl }}/images/logo/lab-logo.png" alt="CFL Lab" class="brand-logo brand-logo-cfl">
+      <span class="brand-title">{{ site.title }}</span>
+    </a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/news">News</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/software">Software</a></li>
+		<li><a href="{{ site.baseurl }}/">Home</a></li>
+		<li><a href="{{ site.baseurl }}/team">Team</a></li>
+		<li><a href="{{ site.baseurl }}/news">News</a></li>
+		<li><a href="{{ site.baseurl }}/research">Research</a></li>
+		<li><a href="{{ site.baseurl }}/publications">Publications</a></li>
+		<li><a href="{{ site.baseurl }}/software">Software</a></li>
 	  </ul>
 	</div>
   </div>

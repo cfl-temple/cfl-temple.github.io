@@ -10,12 +10,12 @@ permalink: /news.html
 <!-- Recent 3 News Items -->
 <ul class="list-unstyled">
     {% for article in site.data.news limit:3 %}
-        <li class="media" style="margin-bottom: 30px;">
+        <li id="{{ article.title | slugify }}" class="media" style="margin-bottom: 30px; scroll-margin-top: 90px;">
             {% if article.images and article.images.size > 0 %}
             <div class="media-left" style="padding-right: 15px;">
                 {% assign carousel_id = "carousel-r-" | append: forloop.index %}
                 {% if article.images.size == 1 %}
-                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.images[0] }}"
+                <img src="{{ site.baseurl }}/images/{{ article.images[0] }}"
                      alt="{{ article.title }}"
                      class="media-object news-image"
                      style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -29,7 +29,7 @@ permalink: /news.html
                     <div class="carousel-inner" role="listbox">
                         {% for img in article.images %}
                         <div class="item{% if forloop.first %} active{% endif %}">
-                            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ img }}"
+                            <img src="{{ site.baseurl }}/images/{{ img }}"
                                  alt="{{ article.title }}"
                                  class="news-image"
                                  style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -49,7 +49,7 @@ permalink: /news.html
             </div>
             {% elsif article.image %}
             <div class="media-left" style="padding-right: 15px;">
-                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}"
+                <img src="{{ site.baseurl }}/images/{{ article.image }}"
                      alt="{{ article.title }}"
                      class="media-object news-image"
                      style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -86,12 +86,12 @@ permalink: /news.html
         <div class="panel-body">
             <ul class="list-unstyled">
                 {% for article in site.data.news offset:3 %}
-                    <li class="media" style="margin-bottom: 30px;">
+                    <li id="{{ article.title | slugify }}" class="media" style="margin-bottom: 30px; scroll-margin-top: 90px;">
                         {% if article.images and article.images.size > 0 %}
                         <div class="media-left" style="padding-right: 15px;">
                             {% assign carousel_id = "carousel-o-" | append: forloop.index %}
                             {% if article.images.size == 1 %}
-                            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.images[0] }}"
+                            <img src="{{ site.baseurl }}/images/{{ article.images[0] }}"
                                  alt="{{ article.title }}"
                                  class="media-object news-image"
                                  style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -105,7 +105,7 @@ permalink: /news.html
                                 <div class="carousel-inner" role="listbox">
                                     {% for img in article.images %}
                                     <div class="item{% if forloop.first %} active{% endif %}">
-                                        <img src="{{ site.url }}{{ site.baseurl }}/images/{{ img }}"
+                                        <img src="{{ site.baseurl }}/images/{{ img }}"
                                              alt="{{ article.title }}"
                                              class="news-image"
                                              style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -125,7 +125,7 @@ permalink: /news.html
                         </div>
                         {% elsif article.image %}
                         <div class="media-left" style="padding-right: 15px;">
-                            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ article.image }}"
+                            <img src="{{ site.baseurl }}/images/{{ article.image }}"
                                  alt="{{ article.title }}"
                                  class="media-object news-image"
                                  style="width: 200px; height: auto; border-radius: 5px; cursor: pointer;">
@@ -193,5 +193,20 @@ document.addEventListener('DOMContentLoaded', function() {
             $('#imageModal').modal('show');
         });
     });
+
+    if (window.location.hash) {
+        var target = document.getElementById(window.location.hash.slice(1));
+        if (target) {
+            var olderPanel = document.getElementById('older-news');
+            if (olderPanel && olderPanel.contains(target) && !olderPanel.classList.contains('in')) {
+                $(olderPanel).one('shown.bs.collapse', function() {
+                    target.scrollIntoView();
+                });
+                $(olderPanel).collapse('show');
+            } else {
+                target.scrollIntoView();
+            }
+        }
+    }
 });
 </script>

@@ -1,36 +1,34 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<p>{{ site.title }}</p>
-				<img class="img-fluid" src="{{ site.baseurl }}/images/logo/lab-logo.png"
-				     style="max-width: 100px;">
-			</div>
+<footer class="site-footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="footer-logo" src="{{ site.baseurl }}/images/logo/lab-logo.png" alt="{{ site.title }}">
+        <p class="footer-title">{{ site.title }}</p>
+        <p class="footer-tagline">Temple University &mdash; College of Engineering</p>
+      </div>
 
-			<div class="col-sm-4">
-				<p>Links</p>
-				<ul class="list-unstyled">
-					<li><a href="https://github.com/ericdaat/research-lab-website">Github Repository</a></li>
-				</ul>
-			</div>
+      <div class="col-sm-4">
+        <p class="footer-heading">Quick Links</p>
+        <ul class="footer-links">
+          <li><a href="{{ site.baseurl }}/team">Team</a></li>
+          <li><a href="{{ site.baseurl }}/research">Research</a></li>
+          <li><a href="{{ site.baseurl }}/publications">Publications</a></li>
+          <li><a href="{{ site.baseurl }}/openings">Join Us</a></li>
+        </ul>
+      </div>
 
-			<div class="col-sm-4">
-				<p>Contact</p>
-				<p>
-				Rm 604, College of Engineering<br>
-				1947 N 12th Street, <br>
-				Phiadelphia, PA 19122<br>
-			   </p>
-			</div>
-		</div>
+      <div class="col-sm-4">
+        <p class="footer-heading">Contact</p>
+        <p class="footer-contact"><i class="fas fa-location-dot"></i> Rm 604, College of Engineering<br>1947 N 12th Street<br>Philadelphia, PA 19122</p>
+        <p class="footer-contact"><i class="fas fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+    </div>
 
-		<div class="row mt-3">
-			<p class="text-center">Copyright, 2025</p>
-		</div>
-	</div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 {{ site.title }}, Temple University.</p>
+    </div>
   </div>
-</div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
