@@ -11,7 +11,7 @@ social:
     website: https://belle-lettrist.blogspot.com/
 education:
  - BSEE at Institute of Engineering & Technology DAVV, Indore, 2000-2004
- - MSECE at Temple Unviversity, 2004-2006
+ - MSECE at Temple University, 2004-2006
 ---
 
 Shweta Moonat is Director of Technical Program Management Office Health and Life Sciences at Microsoft.

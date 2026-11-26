@@ -11,7 +11,7 @@ categories:
 team:
   - name: "Li Bai"
     role: "Principal Investigator"
-  - name: "YingTing Wu"
+  - name: "Ying-Ting Wu"
     role: "Graduate Student"
   - name: "Sarker Mohammad"
     role: "Graduate Student"

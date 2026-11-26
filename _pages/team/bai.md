@@ -8,7 +8,7 @@ permalink: /team/bai-li
 social:
     website: https://lbaitemple.github.io/
     linkedin: https://www.linkedin.com/in/li-bai-86a7814/
-    github: https://github.com/lbaiemple
+    github: https://github.com/lbaitemple
     orcid: https://orcid.org/0000-0002-6036-5947
 education:
  - BSEE, Temple University, 1993-1996
