@@ -15,6 +15,8 @@ layout: default
     <div class="member-hero">
         {% if page.categories contains 'past' %}
             {% assign member_img_rel = "/images/team/alumni/" | append: page.grad_year | append: "/" | append: page.image %}
+        {% elsif page.categories contains 'staff' %}
+            {% assign member_img_rel = "/images/team/" | append: page.image %}
         {% else %}
             {% assign member_img_rel = "/images/team/current/" | append: page.image %}
         {% endif %}
@@ -31,13 +33,7 @@ layout: default
         </p>
 
         <div class="member-social">
-            {% if page.social.twitter %}<a href="{{ page.social.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-            {% if page.social.linkedin %}<a href="{{ page.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
-            {% if page.social.github %}<a href="{{ page.social.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
-            {% if page.social.website %}<a href="{{ page.social.website }}" target="_blank" rel="noopener" aria-label="Website"><i class="fas fa-globe"></i></a>{% endif %}
-            {% if page.social.google-scholar %}<a href="{{ page.social.google-scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fab fa-google"></i></a>{% endif %}
-            {% if page.social.orcid %}<a href="{{ page.social.orcid }}" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
-            {% if page.social.research-gate %}<a href="{{ page.social.research-gate }}" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}
+            {% include social-links.html social=page.social %}
         </div>
     </div>
 
@@ -67,14 +63,7 @@ layout: default
                 <h2 class="section-title">Papers</h2>
                 <ul class="member-papers-list">
                     {% for item in page.thesis %}
-                        {% assign pdf_url = "" %}
-                        {% if item.release %}
-                            {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
-                        {% elsif item.url %}
-                            {% assign pdf_url = item.url %}
-                        {% elsif item.file %}
-                            {% assign pdf_url = site.baseurl | append: "/files/" | append: item.file %}
-                        {% endif %}
+                        {% include thesis-url.html item=item %}
                         <li>
                             <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank" rel="noopener">
                                 <i class="fas fa-file-pdf"></i> {{ item.title }}

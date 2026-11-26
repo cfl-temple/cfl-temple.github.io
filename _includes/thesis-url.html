@@ -1,0 +1,16 @@
+{% comment %}
+  Works out the full web address of one thesis/report PDF and stores it in `pdf_url`.
+  Param: item (one entry of a page's `thesis:` list) with ONE of:
+    release: "2025/file.pdf"   -> a file attached to a GitHub release
+    url:     "https://..."     -> any address
+    file:    "file.pdf"        -> a PDF stored in this site's /files/ folder
+  The address must be complete (https://...) because Google's PDF viewer fetches it from Google's servers.
+{% endcomment %}
+{% assign pdf_url = "" %}
+{% if include.item.release %}
+  {% assign pdf_url = site.releases_url | append: "/" | append: include.item.release %}
+{% elsif include.item.url %}
+  {% assign pdf_url = include.item.url %}
+{% elsif include.item.file %}
+  {% assign pdf_url = site.url | append: site.baseurl | append: "/files/" | append: include.item.file %}
+{% endif %}

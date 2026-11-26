@@ -1,0 +1,14 @@
+{% comment %}
+  Parses a news date written as M/D/YY (e.g. 5/8/26 or 08/09/17).
+  Sets news_month (number), news_month_name, news_month_short, news_day, news_year
+  for the including page to use.
+{% endcomment %}
+{% assign news_date_parts = include.date | split: "/" %}
+{% assign news_month = news_date_parts[0] | plus: 0 %}
+{% assign news_day = news_date_parts[1] | plus: 0 %}
+{% assign news_year = news_date_parts[2] | plus: 0 %}
+{% if news_year < 100 %}{% assign news_year = news_year | plus: 2000 %}{% endif %}
+{% assign news_month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+{% assign news_month_index = news_month | minus: 1 %}
+{% assign news_month_name = news_month_names[news_month_index] %}
+{% assign news_month_short = news_month_name | slice: 0, 3 %}

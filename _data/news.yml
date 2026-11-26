@@ -1,6 +1,6 @@
 - date: 5/8/26
   title: "Celebrating Our 2026 Graduates"
-  images: 
+  images:
     - "news/group_graduation_2026.jpg"
     - "news/joseph_graduation_2026.jpg"
     - "news/anway_sarker_graduation_2026.jpg"
@@ -9,19 +9,17 @@
     - "news/serena_graduation_2026.jpg"
     - "news/kelly_graduation_2026.jpg"
   tags:
-    - Class of 2026
     - Graduation
-    - Student Success
-    - Engineering
-    - Future Leaders
+    - Class of 2026
   content: >
     Congratulations to our 2026 graduates:
-    Joseph Amato, Anway Bose, Sarker Mohammed, Ying-Ting (Serena) Wu, and Yi Hsuan (Kelly) Huang 
-    on reaching this important academic milestone. We are proud to celebrate the achievements of 
-    these talented individuals as they graduate with their degrees in engineering. Each of them 
-    has made significant contributions to the field of engineering, and we are excited to see the 
-    impact they will have in their future careers. Through dedication, hard work, and perseverance, 
-    they have successfully completed their academic journey and are prepared for the next chapter 
+    [Joseph Amato](/team/joe-amato), [Anway Bose](/team/bose-anway), [Sarker Mohammed](/team/sarker),
+    [Ying-Ting (Serena) Wu](/team/serena-wu), and [Yi Hsuan (Kelly) Huang](/team/kelly-huang)
+    on reaching this important academic milestone. We are proud to celebrate the achievements of
+    these talented individuals as they graduate with their degrees in engineering. Each of them
+    has made significant contributions to the field of engineering, and we are excited to see the
+    impact they will have in their future careers. Through dedication, hard work, and perseverance,
+    they have successfully completed their academic journey and are prepared for the next chapter
     of their careers and future endeavors. We celebrate their achievements and wish them continued success ahead.
 
 
@@ -31,39 +29,38 @@
     - "news/sarker_2026_master_1.jpg"
     - "news/sarker_2026_master_2.jpg"
   tags:
-    - Master's Defense
-    - AI
+    - "Master's Defense"
+    - Federated Learning
+    - Homomorphic Encryption
     - Cybersecurity
-    - Fully Homomorphic Encryption
   content: >
-    Sarker Mohammed successfully defended his master project, 
+    [Sarker Mohammed](/team/sarker) successfully defended his master's project,
     "FHE Flower Project: Integrating Fully Homomorphic Encryption into the Flower Federated Learning Framework",
-    which focuses on developing on enchancing privacy and security in federated learning systems 
-    through advanced encryption techniques. He demonstrated exceptional technical depth and a 
-    strong commitment to advancing secure AI systems throughout the project. 
-    Congratulations to Sarker Mohammed on this important academic milestone. 
-    (Pictures of Sarker Mohammed, Dr. Li Bai and Dr. Chiu Tan)
+    which focuses on developing ways to enhance privacy and security in federated learning systems
+    through advanced encryption techniques. He demonstrated exceptional technical depth and a
+    strong commitment to advancing secure AI systems throughout the project.
+    Congratulations to Sarker Mohammed on this important academic milestone.
+    (Pictured: Sarker Mohammed, [Dr. Li Bai](/team/bai-li) and Dr. Chiu Tan)
 
 - date: 4/29/26
   title: "Ying-Ting (Serena) Wu Successfully Defended Her Master's Project"
-  images: 
+  images:
     - "news/yingting_2026_master_1.jpg"
     - "news/yingting_2026_master_2.jpg"
   tags:
-    - Master's Defense
+    - "Master's Defense"
     - AI
-    - Chatbot
-    - Multi-Agents Systems
-    - Mental Health Tech
+    - Multi-Agent Systems
+    - Mental Health
   content: >
-    Ying-Ting (Serena) Wu successfully defended her master project,
+    [Ying-Ting Wu](/team/serena-wu) successfully defended her master's project,
     "A Multi-Agent Counseling Chatbot System for Active Thinking",
     which focuses on developing an AI driven system that use multi-agents chatbot 
-    to support interactive and reflective thinking in counseling-style conversations. 
-    She demonstrated outstanding creativity, technical excellence, and a remarkable 
-    ability to design AI systems that promote meaningful and engaging human-centered interactions. 
+    to support interactive and reflective thinking in counseling-style conversations.
+    She demonstrated outstanding creativity, technical excellence, and a remarkable
+    ability to design AI systems that promote meaningful and engaging human-centered interactions.
     Congratulations to Ying-Ting Wu on this important academic milestone.
-    (Pictures of Ying-Ting Wu, Dr. Li Bai and Dr. Xu Jiang)
+    (Pictured: Ying-Ting Wu, [Dr. Li Bai](/team/bai-li) and Dr. Xu Jiang)
 
 - date: 4/29/26
   title: "Yi Hsuan (Kelly) Huang Successfully Defended Her Master's Project"
@@ -71,82 +68,105 @@
     - "news/yihsuan_2026_master_1.jpg"
     - "news/yihsuan_2026_master_2.jpg"
   tags:
-    - Master's Defense
-    - Renewable Energy
+    - "Master's Defense"
     - Energy Management
-  content: > 
-    Yi Hsuan Huang successfully defended her master project, 
+    - Renewable Energy
+  content: >
+    [Yi Hsuan Huang](/team/kelly-huang) successfully defended her master's project,
     "Revidyne Energy Device Manager - An Interactive Platform for Energy Device Control, Allocation, and Learning",
-    which focuses on improving energy system management through an intelligent and interactive platform. 
+    which focuses on improving energy system management through an intelligent and interactive platform.
     She demonstrated excellent problem-solving skills and a strong ability to develop practical solutions for modern energy systems.
-    Congratulations to Yi Hsuan Huang on this important academic milestone. 
-    (Pictures of Yi Hsuan Huang, Dr. Li Bai and Dr. Saroj K, Biswas)
-    
+    Congratulations to Yi Hsuan Huang on this important academic milestone.
+    (Pictured: Yi Hsuan Huang, [Dr. Li Bai](/team/bai-li) and Dr. Saroj K. Biswas)
+
 
 - date: 2/1/26
-  title: "Dr. Joe Amato's paper accepted at Texas Power and Energy Conference (TPEC) 2026."
+  title: "Dr. Joseph Amato's Paper Accepted at the Texas Power and Energy Conference (TPEC) 2026"
   images:
     - "news/tpec.jpg"
   tags:
-    - robotics
-    - AI
+    - Conference Paper
+    - Power Systems
+    - Microgrids
+    - Optimization
   content: >
-    Mr. Anway Bose presented the paper on February 8, 2026.
+    The paper "Decentralized Optimization in Multi-Microgrid Networks: Optimizing Fuel Costs
+    Using Consensus-Based ADMM" by [Dr. Joseph Amato](/team/joe-amato), [Anway Bose](/team/bose-anway)
+    and [Dr. Li Bai](/team/bai-li) was accepted at the Texas Power and Energy Conference (TPEC) 2026.
+    The work coordinates fuel use across a network of microgrids without a central controller,
+    using a consensus-based ADMM optimization method.
+    Anway Bose presented the paper at the conference on February 8, 2026.
 
 - date: 12/1/25
-  title: "Chris Pullen defended his master project"
+  title: "Chris Pullen Successfully Defended His Master's Project"
   images:
     - "news/chris_2025.jpg"
   tags:
-    - robotics
-    - AI
+    - "Master's Defense"
+    - Robotics
+    - STEM Education
   content: >
-    Mr. Chris Pullen defended his project presentation. Picture with Cory Zwerlein and Li Bai. 
+    [Chris Pullen](/team/chris-pullen) successfully defended his master's project,
+    "A Low-Cost Quadruped Robot Dog for K-12 STEM Education", which presents an affordable,
+    four-legged robot designed for easy assembly so that K-12 students can build it and learn from it.
+    Congratulations to Chris Pullen on this milestone.
+    (Pictured: Chris Pullen, Cory Zwerlein and [Dr. Li Bai](/team/bai-li))
 
 - date: 11/20/25
-  title: "2025 Butz Scholarship Winner: Kyle McGinley"
+  title: "Kyle McGinley Wins the 2025 Butz Scholarship"
   images:
     - "news/kyle_2025.jpg"
   tags:
-    - scholarship
-    - AI
+    - Award
+    - Scholarship
+    - Undergraduate Research
   content: >
-    Kyle McGinley is the [2025 Butz Scholarship Winner](https://engineering.temple.edu/news/2025/11/2025-butz-scholarship-winner-kyle-mcginley).
+    Congratulations to [Kyle McGinley](/team/kyle-mcginley), an undergraduate student in
+    Electrical and Computer Engineering and a research assistant in CFL, on being named the
+    [2025 Butz Scholarship Winner](https://engineering.temple.edu/news/2025/11/2025-butz-scholarship-winner-kyle-mcginley).
+    In the lab, Kyle works on movement and AI integration for a humanoid robot for health applications.
 
 - date: 11/15/25
   title: "AMIA KDDM Collaborative Workshop"
   images:
     - "news/amia.jpg"
   tags:
-    - robotics
+    - Workshop
     - AI
+    - Robotics
+    - Healthcare
   content: >
-    Yingting Wu presented our project at the AMIA KDDM Collaborative Workshop, 
-    highlighting how AI and robotics can support caregiving through real-world 
-    applications. The workshop offered a valuable opportunity to exchange ideas 
+    [Ying-Ting Wu](/team/serena-wu) presented our project at the AMIA KDDM Collaborative Workshop,
+    highlighting how AI and robotics can support caregiving through real-world
+    applications. The workshop offered a valuable opportunity to exchange ideas
     and gain insights from fellow researchers.
 
 - date:  9/3/25
-  title: "Dr. Joseph Amato defended his PhD thesis."
+  title: "Dr. Joseph Amato Successfully Defended His PhD Dissertation"
   images:
     - "news/joe_2025.jpg"
   tags:
-    - shipboard applications
-    - power distribution
-    - AI
+    - PhD Defense
+    - Power Systems
+    - Federated Learning
+    - Shipboard Power
   content: >
-    Dr. Joseph Amato defended his PhD thesis.
+    [Joseph Amato](/team/joe-amato) successfully defended his PhD dissertation,
+    "Towards Secure and Decentralized Energy Dispatch: Fuel Optimization Using Distributed Learning
+    for Energy Demand and Storage Strategies". His research focuses on privacy-preserving federated
+    optimization for multi-agent systems, with applications to shipboard power systems, and was
+    sponsored by the Department of the Navy. Congratulations, Dr. Amato!
 
 - date: 08/09/17
-  title: "Summer students"
+  title: "Summer Research Students"
   images:
     - "news/summer2017.jpg"
   tags:
-    - robotics
-    - SMART
+    - Summer Research
+    - Undergraduate Research
+    - Robotics
   content: >
-    Congratulations to our merit scholars who performed summer research experience in CFL.
-    Shagar Biswas, Casey Bruno, Gabriel Elsheakh and Alexandar Wroblewski were under Yiran Li's Guidance.
-    Notably, several of them worked on SMART robot project, they made a significant progress.
-
-
+    Congratulations to our merit scholars who completed a summer research experience in CFL:
+    Shagar Biswas, Casey Bruno, Gabriel Elsheakh and [Alexandar Wroblewski](/team/alex-wroblewski),
+    under the guidance of [Yiran Li](/team/yiran-li).
+    Several of them worked on the SMART robot project and made significant progress.

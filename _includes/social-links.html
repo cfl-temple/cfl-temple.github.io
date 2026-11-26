@@ -1,0 +1,12 @@
+{% comment %}
+  Social icons for one person. Param: social (the `social:` block from their page).
+  Used by the Team page cards and each member's own page. Add a new site here once.
+{% endcomment %}
+{% assign s = include.social %}
+{% if s.twitter %}<a href="{{ s.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+{% if s.linkedin %}<a href="{{ s.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+{% if s.github %}<a href="{{ s.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+{% if s.website %}<a href="{{ s.website }}" target="_blank" rel="noopener" aria-label="Website"><i class="fas fa-globe"></i></a>{% endif %}
+{% if s.google-scholar %}<a href="{{ s.google-scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fab fa-google"></i></a>{% endif %}
+{% if s.orcid %}<a href="{{ s.orcid }}" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
+{% if s.research-gate %}<a href="{{ s.research-gate }}" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}

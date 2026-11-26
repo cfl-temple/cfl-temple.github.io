@@ -18,7 +18,7 @@ permalink: /team/
 {% assign members = site.pages | sort: 'title' %}
 {% for member in members %}
     {% if member.path contains 'team/' and member.categories contains 'staff' %}
-    {% assign img_path = "/images/team/current/" | append: member.image %}
+    {% assign img_path = "/images/team/" | append: member.image %}
     {% include team-card.html member=member image_rel_path=img_path %}
     {% endif %}
 {% endfor %}

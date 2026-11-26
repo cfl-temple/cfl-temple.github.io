@@ -1,0 +1,58 @@
+{% comment %}
+  One news story. Params: article (from _data/news.yml), gallery (unique id), featured (true/false).
+  Every photo is a plain link to the full image, so it still works without JavaScript;
+  news.js turns links that share a data-gallery into a lightbox slideshow.
+{% endcomment %}
+{% assign a = include.article %}
+{% include news-date.html date=a.date %}
+{% if a.images and a.images.size > 0 %}
+  {% assign card_imgs = a.images %}
+{% elsif a.image %}
+  {% assign card_imgs = a.image | split: "|||" %}
+{% else %}
+  {% assign card_imgs = "" | split: "" %}
+{% endif %}
+{% assign card_slug = a.title | slugify %}
+
+<article class="news-card{% if include.featured %} news-card-featured{% endif %}{% if card_imgs.size == 0 %} news-card-noimage{% endif %}" id="{{ card_slug }}" data-year="{{ news_year }}" data-tags="{{ a.tags | join: '|' | escape }}">
+  {% if card_imgs.size > 0 %}
+  <div class="news-card-media">
+    <a class="news-photo" href="{{ site.baseurl }}/images/{{ card_imgs[0] }}" data-gallery="{{ include.gallery }}" data-title="{{ a.title | escape }}">
+      <img src="{{ site.baseurl }}/images/{{ card_imgs[0] }}" alt="{{ a.title | escape }}" {% unless include.featured %}loading="lazy"{% endunless %} decoding="async">
+    </a>
+    <span class="news-date-badge" aria-hidden="true">
+      <span class="news-date-badge-month">{{ news_month_short }}</span>
+      <span class="news-date-badge-day">{{ news_day }}</span>
+    </span>
+    {% if card_imgs.size > 1 %}
+    <span class="news-photo-count"><i class="fas fa-images" aria-hidden="true"></i> {{ card_imgs.size }} photos</span>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="news-card-body">
+    <p class="news-meta">
+      <i class="far fa-calendar" aria-hidden="true"></i>
+      <time>{{ news_month_name }} {{ news_day }}, {{ news_year }}</time>
+    </p>
+    <h3 class="news-card-title"><a href="#{{ card_slug }}">{{ a.title }}</a></h3>
+    <div class="news-card-text">{{ a.content | markdownify }}</div>
+    <button type="button" class="news-read-more" hidden>Read more <i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+
+    {% if card_imgs.size > 1 %}
+    <div class="news-thumbs{% unless include.featured %} news-thumbs-compact{% endunless %}">
+      {% for img in card_imgs offset:1 %}
+      <a class="news-photo news-thumb" href="{{ site.baseurl }}/images/{{ img }}" data-gallery="{{ include.gallery }}" data-title="{{ a.title | escape }}">
+        <img src="{{ site.baseurl }}/images/{{ img }}" alt="{{ a.title | escape }}, photo {{ forloop.index | plus: 1 }}" loading="lazy" decoding="async">
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if a.tags %}
+    <ul class="news-tags">
+      {% for tag in a.tags %}<li><button type="button" class="news-tag" data-tag="{{ tag | escape }}" title="Show all {{ tag | escape }} stories">{{ tag }}</button></li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>

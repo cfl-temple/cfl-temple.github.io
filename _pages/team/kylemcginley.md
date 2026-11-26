@@ -6,6 +6,8 @@ title: Kyle McGinley
 image: kyle.png
 role: Undergraduate Student
 permalink: /team/kyle-mcginley
+redirect_from:
+    - "/team/Kyle McGinley"
 social:
     twitter: 
     linkedin: https://www.linkedin.com/in/kyle-mcginley112/

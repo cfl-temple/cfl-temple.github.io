@@ -24,6 +24,10 @@ include:
   - .htaccess
   - _pages
 
+# Lets a page list old addresses under `redirect_from:` so old links keep working
+plugins:
+  - jekyll-redirect-from
+
 sass:
   sass_dir: _sass
 
