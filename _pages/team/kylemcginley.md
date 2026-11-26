@@ -1,11 +1,11 @@
 ---
 layout: member
-category: student
+categories: [student]
 degree: bsece
 title: Kyle McGinley
 image: kyle.png
 role: Undergraduate Student
-permalink: /team/Kyle McGinley
+permalink: /team/kyle-mcginley
 social:
     twitter: 
     linkedin: https://www.linkedin.com/in/kyle-mcginley112/

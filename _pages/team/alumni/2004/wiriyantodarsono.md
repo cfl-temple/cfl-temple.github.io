@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Wiriyanto Darsono
 image: wiriyanto.jpeg
 role: Alumni

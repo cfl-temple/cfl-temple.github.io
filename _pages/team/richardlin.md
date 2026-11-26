@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+categories: [student]
 degree: bsece
 title: Richard Lin
 image: richardlin.jpg

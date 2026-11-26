@@ -1,0 +1,47 @@
+<div class="team-card">
+  <a href="{{ site.baseurl }}{{ include.member.url }}" class="team-card-photo-link">
+    {% assign team_card_image_file = site.static_files | where_exp: "file", "file.path == include.image_rel_path" | first %}
+    {% if team_card_image_file %}
+    <img class="team-card-photo" src="{{ site.baseurl }}{{ include.image_rel_path }}" alt="{{ include.member.title }}">
+    {% else %}
+    <span class="team-card-photo team-card-photo-placeholder">{{ include.member.title | slice: 0, 1 }}</span>
+    {% endif %}
+  </a>
+  <h4 class="team-card-name"><a href="{{ site.baseurl }}{{ include.member.url }}">{{ include.member.title }}</a></h4>
+  <p class="team-card-role">
+    {{ include.member.role }}{% if include.show_grad_year and include.member.grad_year %} &middot; Class of {{ include.member.grad_year }}{% endif %}
+  </p>
+
+  {% assign team_card_desc = include.member.content | strip_html | strip_newlines | strip | truncatewords: 18 %}
+  {% if team_card_desc %}
+  <p class="team-card-desc">{{ team_card_desc }}</p>
+  {% endif %}
+
+  <div class="team-card-social">
+    {% if include.member.social.twitter %}<a href="{{ include.member.social.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+    {% if include.member.social.linkedin %}<a href="{{ include.member.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+    {% if include.member.social.github %}<a href="{{ include.member.social.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+    {% if include.member.social.website %}<a href="{{ include.member.social.website }}" target="_blank" rel="noopener" aria-label="Website"><i class="fas fa-globe"></i></a>{% endif %}
+    {% if include.member.social.google-scholar %}<a href="{{ include.member.social.google-scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fab fa-google"></i></a>{% endif %}
+    {% if include.member.social.orcid %}<a href="{{ include.member.social.orcid }}" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
+    {% if include.member.social.research-gate %}<a href="{{ include.member.social.research-gate }}" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}
+  </div>
+
+  {% if include.member.thesis %}
+  <div class="team-card-papers">
+    {% for item in include.member.thesis %}
+      {% assign pdf_url = "" %}
+      {% if item.release %}
+        {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
+      {% elsif item.url %}
+        {% assign pdf_url = item.url %}
+      {% elsif item.file %}
+        {% assign pdf_url = site.baseurl | append: "/files/" | append: item.file %}
+      {% endif %}
+      <a class="team-card-paper" href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf"></i> {{ item.title | truncate: 45 }}
+      </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

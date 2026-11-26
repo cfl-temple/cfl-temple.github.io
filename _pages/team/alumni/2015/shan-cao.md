@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Shan Cao
 image: nobody.png
 role: Visiting Scholar

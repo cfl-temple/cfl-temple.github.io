@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Hanlu Yang
 image: hanlu.png
 role: Alumni

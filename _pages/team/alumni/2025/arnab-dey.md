@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Arnab Dey
 image: arnab.jpg
 role: Master Student

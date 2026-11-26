@@ -32,6 +32,19 @@ Software tools and projects developed by the Computer Fusion Laboratory.
 
 ---
 
+## Web Applications
+
+### Virtual Power Laboratory (VPL)
+**Description:** A web-based virtual laboratory for electric machines courses. Students work through nine experiments on DC generators and motors, from the magnetization characteristics of a separately excited machine to the speed–torque characteristics of a series motor, with learning material and a student manual. Instructors can manage students, track scores and run a full lab course through the built-in grade center. Supported by the National Science Foundation.
+
+**Technologies:** HTML, JavaScript (jQuery, Bootstrap), Google Apps Script, Adobe Captivate
+
+**Credits:** [Dr. Saroj Biswas](https://engineering.temple.edu/directory/saroj-biswas){:target="_blank"}, [Dr. Li Bai]({{ site.baseurl }}/team/bai-li), [Ning Gong]({{ site.baseurl }}/team/ning-gong)
+
+**Website:** [Open VPL](https://lbaitemple.github.io/templepowerlab/){:target="_blank"}
+
+---
+
 ## Tools & Libraries
 
 

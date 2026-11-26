@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Ning Gong
 image: ning.png
 role: Alumni

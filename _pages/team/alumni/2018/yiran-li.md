@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Yiran Li
 image: yiran.png
 role: Alumni

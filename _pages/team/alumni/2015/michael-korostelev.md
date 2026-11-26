@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Michael Korostelev
 image: korostelev.png
 role: Alumni

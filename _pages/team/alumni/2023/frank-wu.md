@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Frank Wu
 image: frankwu.png
 role: Master Student

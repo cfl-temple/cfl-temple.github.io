@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Balakumar Ragunathan
 image: bala.jpg
 role: Alumni

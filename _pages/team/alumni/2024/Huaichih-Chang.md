@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Huaichih Chang
 image: brianchang.png
 role: Master Student

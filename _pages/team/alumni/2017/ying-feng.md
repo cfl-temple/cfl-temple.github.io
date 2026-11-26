@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Ying Feng
 image: feng.png
 role: Alumni

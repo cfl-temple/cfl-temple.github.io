@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Joseph Amato
 image: amato.png
 role: PhD Student

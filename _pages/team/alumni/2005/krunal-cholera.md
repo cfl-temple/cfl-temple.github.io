@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Krunal Cholera
 image: nobody.png
 role: Alumni

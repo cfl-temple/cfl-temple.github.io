@@ -1,15 +1,18 @@
 ---
 layout: member
-category: staff
+categories: [staff]
 title: Li Bai
 image: bai.png
 role: Lab Director
 permalink: /team/bai-li
 social:
-    website: https://lbaitemple.github.io/
+    twitter:
     linkedin: https://www.linkedin.com/in/li-bai-86a7814/
-    github: https://github.com/lbaiemple
+    google-scholar:
+    github: https://github.com/lbaitemple
+    website: https://lbaitemple.github.io/
     orcid: https://orcid.org/0000-0002-6036-5947
+    research-gate:
 education:
  - BSEE, Temple University, 1993-1996
  - MSEE, Drexel University, 1996-1998

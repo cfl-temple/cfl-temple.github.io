@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Kanupriya Salaria
 image: kanu.jpg
 role: Alumni

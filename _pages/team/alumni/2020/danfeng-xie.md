@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Danfeng Xie
 image: danfeng.jpg
 role: Alumni

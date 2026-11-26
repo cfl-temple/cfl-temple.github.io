@@ -1,16 +1,18 @@
 ---
 layout: member
-category: student
+categories: [student]
 title: Sarker Mohammed
-image: sarker.png
+image: sarker.jpg
 role: PhD Student
 permalink: /team/sarker
 social:
-    twitter: 
+    twitter:
     linkedin: https://www.linkedin.com/in/sarkermohammed/
-    google-scholar: 
+    google-scholar:
     github: https://github.com/SarkerMohammed
     website:
+    orcid:
+    research-gate:
 education:
     - BSCS & Physics at Temple University, 2021-2025
     - MSEE at Temple University, 2025-2026

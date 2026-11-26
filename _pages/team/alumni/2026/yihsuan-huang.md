@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Yi Hsuan Huang
 image: kelly.png
 role: Master Student

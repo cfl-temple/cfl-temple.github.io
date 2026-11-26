@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Chris Pullen
 image: pullen.png
 role: Master Student

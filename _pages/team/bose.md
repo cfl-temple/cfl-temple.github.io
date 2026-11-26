@@ -1,11 +1,12 @@
 ---
 layout: member
-category: student
+categories: [student]
 title: Anway Bose
 image: anway.jpg
 role: PhD Student
 permalink: /team/bose-anway
 social:
+    twitter:
     linkedin: https://www.linkedin.com/in/anway-bose/
     google-scholar: https://scholar.google.com/citations?user=S09uifcAAAAJ&hl=en
     github: https://github.com/anwaybose

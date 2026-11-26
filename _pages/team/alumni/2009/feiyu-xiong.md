@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Feiyu Xiong
 image: feiyu.jpg
 role: Alumni

@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Sachin Francis
 image: sachin.jpg
 role: Alumni

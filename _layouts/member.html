@@ -3,105 +3,91 @@ layout: default
 ---
 
 <div class="col-sm-12">
-    <div class=row>
-        <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{{ site.baseurl }}/team">Team</a></li>
-            <li class="breadcrumb-item text-capitalize"><a href="{{ site.baseurl }}/team#{{ page.category }}">{{ page.category }}</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-        </ol>
-        </nav>
-    </div>
-    <div class="row text-center">
-        <!-- Avatar -->
-        {% if page.category == 'past' %}
-        <img src="{{ site.baseurl }}/images/team/alumni/{{ page.grad_year }}/{{ page.image }}"
-             class="img-circle"
-             style="max-width: 200px;"/>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb member-breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.baseurl }}/team">Team</a></li>
+        <li class="breadcrumb-item text-capitalize"><a href="{{ site.baseurl }}/team#{{ page.categories | first }}">{{ page.categories | first }}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+    </nav>
+
+    <!-- Hero -->
+    <div class="member-hero">
+        {% if page.categories contains 'past' %}
+            {% assign member_img_rel = "/images/team/alumni/" | append: page.grad_year | append: "/" | append: page.image %}
         {% else %}
-        <img src="{{ site.baseurl }}/images/team/{{ page.image }}"
-             class="img-circle"
-             style="max-width: 200px;"/>
+            {% assign member_img_rel = "/images/team/current/" | append: page.image %}
+        {% endif %}
+        {% assign member_img_file = site.static_files | where_exp: "file", "file.path == member_img_rel" | first %}
+        {% if member_img_file %}
+        <img class="member-photo" src="{{ site.baseurl }}{{ member_img_rel }}" alt="{{ page.title }}">
+        {% else %}
+        <span class="member-photo member-photo-placeholder">{{ page.title | slice: 0, 1 }}</span>
         {% endif %}
 
-        <!-- Name & Role -->
-        <h1>{{ page.title }}</h1>
-        <h3>{{ page.role }}</h3>
+        <h1 class="member-name">{{ page.title }}</h1>
+        <p class="member-role-badge">
+            {{ page.role }}{% if page.grad_year %} &middot; Class of {{ page.grad_year }}{% endif %}
+        </p>
 
-        <!-- Social -->
-        <ul class="list-inline list-unstyled">
-            <!-- Twitter -->
-            {% if page.social.twitter %}
-                <li><a target="blank" href="{{page.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
-            {% endif %}
-            <!-- Linkedin -->
-            {% if page.social.linkedin %}
-                <li><a target="blank" href="{{page.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
-            {% endif %}
-            <!-- Github -->
-            {% if page.social.github %}
-                <li><a target="blank" href="{{page.social.github}}"><i class="fab fa-github"></i></a></li>
-            {% endif %}
-            <!-- Personal Website -->
-            {% if page.social.website %}
-                <li><a target="blank" href="{{page.social.website}}"><i class="fas fa-globe"></i></a></li>
-            {% endif %}
-            <!-- Google Scholar -->
-            {% if page.social.google-scholar %}
-                <li><a target="blank" href="{{page.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
-            {% endif %}
-            <!-- Orcid -->
-            {% if page.social.orcid %}
-                <li><a target="blank" href="{{page.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
-            {% endif %}
-            <!-- Research Gate -->
-            {% if page.social.research-gate %}
-                <li><a target="blank" href="{{page.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
-            {% endif %}
-        </ul>
+        <div class="member-social">
+            {% if page.social.twitter %}<a href="{{ page.social.twitter }}" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+            {% if page.social.linkedin %}<a href="{{ page.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+            {% if page.social.github %}<a href="{{ page.social.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+            {% if page.social.website %}<a href="{{ page.social.website }}" target="_blank" rel="noopener" aria-label="Website"><i class="fas fa-globe"></i></a>{% endif %}
+            {% if page.social.google-scholar %}<a href="{{ page.social.google-scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fab fa-google"></i></a>{% endif %}
+            {% if page.social.orcid %}<a href="{{ page.social.orcid }}" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
+            {% if page.social.research-gate %}<a href="{{ page.social.research-gate }}" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}
+        </div>
     </div>
 
-    <!-- Education -->
-    <div class="row">
-        <h3>Education</h3>
-        <ul style="margin-left: 20px;">
-            {% for education in page.education %}
-                <li>{{education}}</li>
-            {% endfor %}
-        </ul>
-    </div>
+    <!-- Details -->
+    <div class="row member-details">
+        <div class="col-sm-8">
+            <div class="home-section-card">
+                <h2 class="section-title">Bio</h2>
+                {{ content }}
+            </div>
+        </div>
 
-    <!-- Thesis/Report -->
-    {% if page.thesis %}
-    <div class="row">
-        <h3>Thesis / Project Report</h3>
-        <ul style="margin-left: 20px;">
-            {% for item in page.thesis %}
-                {% assign pdf_url = "" %}
-                {% if item.release %}
-                    {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
-                {% elsif item.url %}
-                    {% assign pdf_url = item.url %}
-                {% elsif item.file %}
-                    {% assign pdf_url = site.url | append: site.baseurl | append: "/files/" | append: item.file %}
-                {% endif %}
-                <li>
-                    <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank">
-                        <i class="fas fa-file-pdf"></i> {{ item.title }}
-                    </a>
-                    <a href="{{ pdf_url }}" target="_blank" title="Download" style="margin-left: 10px;">
-                        <i class="fas fa-download"></i>
-                    </a>
-                    {% if item.year %} ({{ item.year }}){% endif %}
-                </li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endif %}
+        <div class="col-sm-4">
+            {% if page.education %}
+            <div class="home-section-card">
+                <h2 class="section-title">Education</h2>
+                <ul class="member-education-list">
+                    {% for education in page.education %}
+                    <li><i class="fas fa-graduation-cap"></i> {{ education }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
 
-    <!-- Bio -->
-    <div class="row">
-        <h3>Bio</h3>
-        {{ content }}
+            {% if page.thesis %}
+            <div class="home-section-card">
+                <h2 class="section-title">Papers</h2>
+                <ul class="member-papers-list">
+                    {% for item in page.thesis %}
+                        {% assign pdf_url = "" %}
+                        {% if item.release %}
+                            {% assign pdf_url = site.releases_url | append: "/" | append: item.release %}
+                        {% elsif item.url %}
+                            {% assign pdf_url = item.url %}
+                        {% elsif item.file %}
+                            {% assign pdf_url = site.baseurl | append: "/files/" | append: item.file %}
+                        {% endif %}
+                        <li>
+                            <a href="https://docs.google.com/viewer?url={{ pdf_url | url_encode }}&embedded=true" target="_blank" rel="noopener">
+                                <i class="fas fa-file-pdf"></i> {{ item.title }}
+                            </a>
+                            <a class="member-paper-download" href="{{ pdf_url }}" target="_blank" rel="noopener" title="Download">
+                                <i class="fas fa-download"></i>
+                            </a>
+                            {% if item.year %}<span class="member-paper-year">({{ item.year }})</span>{% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+        </div>
     </div>
 </div>

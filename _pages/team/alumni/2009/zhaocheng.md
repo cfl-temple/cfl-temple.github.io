@@ -1,6 +1,6 @@
 ---
 layout: member
-category: past
+categories: [past]
 title: Zhao Cheng
 image: nobody.png
 role: Alumni
